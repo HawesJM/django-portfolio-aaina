@@ -1,0 +1,18 @@
+[
+    {
+        "pk": 1,
+        "model": "articles.category",
+        "fields": {
+            "name": "art",
+            "friendly_name": "Art"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "articles.category",
+        "fields": {
+            "name": "culture",
+            "friendly_name": "Culture"
+        }
+    }
+]

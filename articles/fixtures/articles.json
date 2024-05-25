@@ -1,0 +1,13 @@
+[
+    {
+        "pk": 1,
+        "model": "articles.article",
+        "fields": {
+            "title": "For their Venice Biennale exhibition, Indian artists Madhvi and Manu Parekh are transforming paintings and sculptures into textile tapestries",
+            "keywords": "Art",
+            "image_url": "",
+            "image": "parekh-cover-image.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/venice-biennale-indian-art-chanakya"
+        }
+    }
+]

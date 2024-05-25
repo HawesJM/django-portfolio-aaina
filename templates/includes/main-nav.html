@@ -1,0 +1,44 @@
+<div id="main-nav" class="collapse navbar-collapse nav-bar-one">
+    <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item d-block d-md-none">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="{% url 'home' %}" id="home-link">
+                Home
+            </a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="all-articles-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Writing
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="all-articles-link">
+                <a href="{% url 'home' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
+                <a href="{% url 'home' %}" class="dropdown-item">All Articles</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="articles-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="articles-link">
+                <a href="{% url 'home' %}?category=jeans" class="dropdown-item">Art</a>
+                <a href="{% url 'home' %}?category=shirts" class="dropdown-item">Culture</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="homeware-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Talks
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
+                <a href="{% url 'home' %}?category=jeans" class="dropdown-item">Art</a>
+                <a href="{% url 'home' %}?category=shirts" class="dropdown-item">Culture</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-white" href="#" id="specials-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contact
+            </a>
+        </li>
+    </ul>
+</div>
