@@ -1,6 +1,17 @@
 from django.contrib import admin
 from .models import Article, Category
 
-# Register your models here.
-admin.site.register(Article)
+class ArticleAdmin(admin.ModelAdmin):
+    list_display = (
+        'title',
+        'published_date',
+        'category',
+        'keywords',
+        'url',
+        'image',
+        'image_url',
+    )
+    ordering = ('published_date',)
+
+admin.site.register(Article, ArticleAdmin)
 admin.site.register(Category)
