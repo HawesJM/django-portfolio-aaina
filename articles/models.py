@@ -23,6 +23,7 @@ class Article(models.Model):
     image = models.ImageField(max_length=1024, null=True, blank=True)
     url = models.URLField(max_length=1024, null=True, blank=True)
     published_date = models.CharField(max_length=1024, null=True, blank=True)
+    publication = models.CharField(max_length=500, null=True, blank=True)
 
     def __str__(self):
         return self.title

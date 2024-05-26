@@ -9,7 +9,50 @@
             "image_url": "",
             "image": "parekh-cover-image.png",
             "url": "https://www.tatlerasia.com/lifestyle/arts/venice-biennale-indian-art-chanakya",
-            "published_date": "25th May 2024"
+            "published_date": "25th May 2024",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "title": "Father of Hong Kong design Henry Steiner on how his legacy and that of the city are inextricably linked",
+            "keywords": "Design | Exhibitions | Museums",
+            "image_url": "",
+            "image": "henry-steiner-profile.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/henry-steiner-may-cover",
+            "published_date": "02nd May 2024",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "title": "Meet these Mongolian artists keeping folklore alive and redefining their country’s cultural identity through art",
+            "keywords": "Sculpture | Mythology | History",
+            "image_url": "",
+            "image": "jantsankhorol-erdenebayar-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/mongolian-artist-art-basel",
+            "published_date": "23rd March 2024",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "title": "Artist Marilyn Minter on why the art world loves old ladies, dead ladies and young bad boys",
+            "keywords": "Beauty | Gender | Sexuality",
+            "image_url": "",
+            "image": "marilyn-minter-portrait.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/marilyn-minter-artist-interview",
+            "published_date": "5th March 2024",
+            "publication": "Tatler Asia"
         }
     }
 ]

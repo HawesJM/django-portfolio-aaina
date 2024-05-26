@@ -2,6 +2,7 @@ body {
   min-height: 100vh;
   padding: 0;
   font-family: Poppins, sans-serif;
+  padding-top: 50px;
 }
 
 #navbar-brand {
@@ -44,6 +45,9 @@ a {
   text-transform: uppercase;
 }
 
+.header-container {
+  padding-bottom: 100px;
+}
 
 .nav-link {
   color: #fafafa;
@@ -148,7 +152,6 @@ a {
   --bs-btn-active-border-color: #E4E4E4;
   --bs-btn-hover-color: #a5505e;
 }
-
 
 #card-container {
   margin-top: 75px;

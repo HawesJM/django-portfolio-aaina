@@ -46,19 +46,21 @@
 
 <body>
     <!-- main header and navbar -->
-    <header class="container-fluid fixed-top nav-bar-one">
+    <div class="container-fluid fixed-top nav-bar-one">
         <div id="" class="row d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a id="navbar-brand" href="{% url 'home'}"><i class="fa-solid fa-pen-nib"></i> | Aaina Bhargava: Arts & Culture</a>
+                <a id="navbar-brand" href="{% url 'home'}"><i class="fa-solid fa-pen-nib"></i> | Aaina Bhargava: Arts &
+                    Culture</a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'home' %}">
                     <div class="input-group w-100">
-                      <label for="search-bar" class="sr-only">Search</label>
-                        <input class="form-control border border-white rounded-0" type="text" name="q" id="search-bar" placeholder="search all our articles">
+                        <label for="search-bar" class="sr-only">Search</label>
+                        <input class="form-control border border-white rounded-0" type="text" name="q" id="search-bar"
+                            placeholder="search all our articles">
                         <div class="input-group-append">
                             <button class="form-control btn btn-white border border-white rounded-0" type="submit">
-                              <p class="sr-only">Search</p>
+                                <p class="sr-only">Search</p>
                                 <span class="icon nav-bar-one">
                                     <i class="fas fa-search"></i>
                                 </span>
@@ -71,7 +73,8 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
-                        <a class="text-white nav-link" href="#" id="user-options" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-white nav-link" href="#" id="user-options" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-user fa-lg"></i></div>
                                 <p class="my-3">My Account</p>
@@ -79,15 +82,15 @@
                         </a>
                         <div id="account-dropdown" class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
-                                {% if request.user.is_superuser %}
-                                    <a href="{% url 'home' %}" class="dropdown-item">Wine Management</a>
-                                {% endif %}
-                                <a href="{% url 'home' %}" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'home' %}" class="dropdown-item">My Wishlist</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                            {% if request.user.is_superuser %}
+                            <a href="{% url 'home' %}" class="dropdown-item">Wine Management</a>
+                            {% endif %}
+                            <a href="{% url 'home' %}" class="dropdown-item">My Profile</a>
+                            <a href="{% url 'home' %}" class="dropdown-item">My Wishlist</a>
+                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                             {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                             {% endif %}
                         </div>
                     </li>
@@ -96,22 +99,23 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0"></div>
         </div>
         <div class="row nav-bar-one">
-          <nav class="navbar navbar-expand-lg navbar-light w-100">
-              <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              {% include 'includes/main-nav.html' %}
-              {% include 'includes/mobile-top-header.html' %}
-          </nav>
-      </div>
-      </header>
-      
-      {% if messages %}
-      {% endif %}
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {% include 'includes/main-nav.html' %}
+                {% include 'includes/mobile-top-header.html' %}
+            </nav>
+        </div>
+    </div>
 
-        {% block page_header %}
-        {% endblock %}
-    </nav>
+    {% if messages %}
+    {% endif %}
+
+    {% block page_header %}
+    {% endblock %}
 
     {% block content %}
     {% endblock %}
