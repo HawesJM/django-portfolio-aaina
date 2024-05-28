@@ -10,8 +10,9 @@
                 Writing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-articles-link">
-                <a href="{% url 'home' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'articles' %}" class="dropdown-item">All Articles</a>
+                <a href="{% url 'articles' %}?category=art,culture" class="dropdown-item">All Articles</a>
+                <a href="{% url 'articles' %}?category=art" class="dropdown-item">Art</a>
+                <a href="{% url 'articles' %}?category=culture" class="dropdown-item">Culture</a>
             </div>
         </li>
 

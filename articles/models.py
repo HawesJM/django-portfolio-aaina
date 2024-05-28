@@ -17,7 +17,7 @@ class Category(models.Model):
 
 class Article(models.Model):
     category = models.ForeignKey('category', null=True, blank=True, on_delete=models.SET_NULL)
-    title = models.CharField(max_length=500, null=True, blank=True)
+    name = models.CharField(max_length=500, null=True, blank=True)
     keywords = models.CharField(max_length=500, null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(max_length=1024, null=True, blank=True)
@@ -26,4 +26,4 @@ class Article(models.Model):
     publication = models.CharField(max_length=500, null=True, blank=True)
 
     def __str__(self):
-        return self.title
+        return self.name

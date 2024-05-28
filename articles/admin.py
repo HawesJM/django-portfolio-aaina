@@ -3,7 +3,7 @@ from .models import Article, Category
 
 class ArticleAdmin(admin.ModelAdmin):
     list_display = (
-        'title',
+        'name',
         'published_date',
         'category',
         'keywords',
