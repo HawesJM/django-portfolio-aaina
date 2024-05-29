@@ -29,7 +29,7 @@ def all_articles(request):
     context = {
         'articles': articles,
         'search_term': query,
-        'current_category': categories,
+        'current_categories': categories,
     }
 
     return render(request, "articles/articles.html", context)

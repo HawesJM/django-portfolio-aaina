@@ -201,6 +201,18 @@ a {
   margin-top: 10px;
 }
 
+.btt-button {
+  height: 42px;
+  width: 42px;
+  position: fixed;
+  bottom: 150px;
+  right: 150px;
+}
+
+.btt-link {
+  cursor: pointer;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
