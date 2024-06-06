@@ -49,7 +49,7 @@
     <div class="container-fluid fixed-top nav-bar-one">
         <div id="" class="row d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a id="navbar-brand" href="{% url 'home'}"><i class="fa-solid fa-pen-nib"></i> | Aaina Bhargava: Arts &
+                <a id="navbar-brand" href="{% url 'home' %}"><i class="fa-solid fa-pen-nib"></i> | Aaina Bhargava: Arts &
                     Culture</a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -93,6 +93,14 @@
                             <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                             {% endif %}
                         </div>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="text-white" href="{% url 'view_library' %}">
+                            <div class="text-center">
+                                <div><i class="fa-solid fa-book"></i></div>
+                                <p>Library</p>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>
