@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
 from .models import Article, Category
+from .forms import ArticleForm
 
 
 def all_articles(request):
@@ -33,3 +34,12 @@ def all_articles(request):
     }
 
     return render(request, "articles/articles.html", context)
+
+def add_article(request):
+    form = ArticleForm()
+    template = 'articles/add_article.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
