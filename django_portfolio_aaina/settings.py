@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'home',
     'articles',
     'library',
+    'profiles',
 ]
 
 MIDDLEWARE = [
@@ -76,6 +77,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
+                'library.contexts.library_contents',
             ],
         },
     },
