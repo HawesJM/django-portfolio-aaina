@@ -54,35 +54,6 @@
             "published_date": "5th March 2024",
             "publication": "Tatler Asia"
         }
-    },
-    {
-        "pk": 5,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "title": "Wolfgang Tillmans on his upcoming Hong Kong exhibition, and creating a timeless body of work that captures the cultural pulse",
-            "keywords": "Photography | Audio | Sexuality",
-            "image_url": "",
-            "image": "wolfgang-tillmans-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/wolfgang-tillmans-artist-interview",
-            "published_date": "17th March 2024",
-            "publication": "Tatler Asia"
-        }
-    },
-    {
-        "pk": 6,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "title": "Wolfgang Tillmans on his upcoming Hong Kong exhibition, and creating a timeless body of work that captures the cultural pulse",
-            "keywords": "Photography | Audio | Sexuality",
-            "image_url": "",
-            "image": "wolfgang-tillmans-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/wolfgang-tillmans-artist-interview",
-            "published_date": "17th March 2024",
-            "publication": "Tatler Asia"
-        }
-    },
-    
+    }
     
 ]

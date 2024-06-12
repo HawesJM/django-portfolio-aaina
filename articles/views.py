@@ -21,7 +21,7 @@ def all_articles(request):
         if "q" in request.GET:
             query = request.GET["q"]
             if not query:
-                messages.error(request, "you've entered no search crieteria")
+                messages.error(request, "you've entered no search criteria")
                 return redirect(reverse("articles"))
 
             queries = Q(name__icontains=query) | Q(keywords__icontains=query)
@@ -36,10 +36,53 @@ def all_articles(request):
     return render(request, "articles/articles.html", context)
 
 def add_article(request):
-    form = ArticleForm()
+
+    if request.method == 'POST':
+        form = ArticleForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'article added successfully')
+            return redirect(reverse('add_article'))
+        else:
+            messages.error(request, 'failed to add article, please ensure the form is valid')
+    else:
+        form = ArticleForm()
+
     template = 'articles/add_article.html'
     context = {
         'form': form,
     }
 
     return render(request, template, context)
+
+def edit_article(request, article_id):
+    """ Edit a product in the store """
+    article = get_object_or_404(Article, pk=article_id)
+    if request.method == 'POST':
+        form = ArticleForm(request.POST, request.FILES, instance=article)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated product!')
+            
+        else:
+            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
+    else:
+        form = ArticleForm(instance=article)
+        messages.info(request, f'You are editing {article.name}')
+
+    template = 'articles/edit_article.html'
+    context = {
+        'form': form,
+        'article': article,
+    }
+
+
+    return render(request, template, context)
+
+
+def delete_article(request, article_id):
+    """ Delete a product from the store """
+    article = get_object_or_404(Article, pk=article_id)
+    article.delete()
+    messages.success(request, 'Article deleted!')
+    return redirect(reverse('articles'))
