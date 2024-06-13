@@ -4,7 +4,7 @@
         "model": "articles.article",
         "fields": {
             "category": 1,
-            "title": "For their Venice Biennale exhibition, Indian artists Madhvi and Manu Parekh are transforming paintings and sculptures into textile tapestries",
+            "name": "For their Venice Biennale exhibition, Indian artists Madhvi and Manu Parekh are transforming paintings and sculptures into textile tapestries",
             "keywords": "Art",
             "image_url": "",
             "image": "parekh-cover-image.png",
@@ -18,7 +18,7 @@
         "model": "articles.article",
         "fields": {
             "category": 2,
-            "title": "Father of Hong Kong design Henry Steiner on how his legacy and that of the city are inextricably linked",
+            "name": "Father of Hong Kong design Henry Steiner on how his legacy and that of the city are inextricably linked",
             "keywords": "Design | Exhibitions | Museums",
             "image_url": "",
             "image": "henry-steiner-profile.png",
@@ -32,7 +32,7 @@
         "model": "articles.article",
         "fields": {
             "category": 2,
-            "title": "Meet these Mongolian artists keeping folklore alive and redefining their country’s cultural identity through art",
+            "name": "Meet these Mongolian artists keeping folklore alive and redefining their country’s cultural identity through art",
             "keywords": "Sculpture | Mythology | History",
             "image_url": "",
             "image": "jantsankhorol-erdenebayar-cover.png",
@@ -46,7 +46,7 @@
         "model": "articles.article",
         "fields": {
             "category": 1,
-            "title": "Artist Marilyn Minter on why the art world loves old ladies, dead ladies and young bad boys",
+            "name": "Artist Marilyn Minter on why the art world loves old ladies, dead ladies and young bad boys",
             "keywords": "Beauty | Gender | Sexuality",
             "image_url": "",
             "image": "marilyn-minter-portrait.png",
@@ -54,6 +54,61 @@
             "published_date": "5th March 2024",
             "publication": "Tatler Asia"
         }
+    },
+    {
+        "pk": 5,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Wolfgang Tillmans on his upcoming Hong Kong exhibition, and creating a timeless body of work that captures the cultural pulse",
+            "keywords": "Photography | Politics | Music",
+            "image_url": "",
+            "image": "wolfgang-tillmans-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/wolfgang-tillmans-artist-interview",
+            "published_date": "17th March 2024",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Takashi Murakami on what might be his ‘final exhibition in Japan’, not playing it safe and why Japanese people don’t really get his work",
+            "keywords": "History | Folklore | Luxury",
+            "image_url": "",
+            "image": "murakami-profile.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/takashi-murakami-march-cover",
+            "published_date": "1st March 2024",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Vietnamese artist Thao Nguyen Phan is reviving the legacies of forgotten female artists and exploring her homeland’s heritage",
+            "keywords": "History | Colonialism | Film",
+            "image_url": "",
+            "image": "thao-nguyen-phan-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/thao-nguyen-phan-interview",
+            "published_date": "1st January 2024",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Emma Raducanu, former US Open Champion, on connecting with her Chinese heritage, being kind to herself, and why constantly pushing doesn’t work",
+            "keywords": "Sport | Fashion | Identity",
+            "image_url": "",
+            "image": "emma-raducanu-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/sports/emma-raducanu-january-cover",
+            "published_date": "29th December 2022",
+            "publication": "Tatler Asia"
+        }
     }
-    
 ]

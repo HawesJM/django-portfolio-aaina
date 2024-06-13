@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from .models import Article, Category
 from .forms import ArticleForm
@@ -35,7 +36,12 @@ def all_articles(request):
 
     return render(request, "articles/articles.html", context)
 
+@login_required
 def add_article(request):
+
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only admin users can do that.')
+        return redirect(reverse('home'))
 
     if request.method == 'POST':
         form = ArticleForm(request.POST, request.FILES)
@@ -55,8 +61,13 @@ def add_article(request):
 
     return render(request, template, context)
 
+@login_required
 def edit_article(request, article_id):
     """ Edit a product in the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only admin users can do that.')
+        return redirect(reverse('home'))
+
     article = get_object_or_404(Article, pk=article_id)
     if request.method == 'POST':
         form = ArticleForm(request.POST, request.FILES, instance=article)
@@ -79,9 +90,13 @@ def edit_article(request, article_id):
 
     return render(request, template, context)
 
-
+@login_required
 def delete_article(request, article_id):
     """ Delete a product from the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only admin users can do that.')
+        return redirect(reverse('home'))
+        
     article = get_object_or_404(Article, pk=article_id)
     article.delete()
     messages.success(request, 'Article deleted!')
