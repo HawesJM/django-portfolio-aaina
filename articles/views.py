@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
-from .models import Article, Category
+from .models import Article, Category, Publication
 from .forms import ArticleForm
 
 
@@ -11,13 +11,15 @@ def all_articles(request):
     articles = Article.objects.all()
     query = None
     categories = None
+    publications = None
+
 
     if request.GET:
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             articles = articles.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
-
+    
     if request.GET:
         if "q" in request.GET:
             query = request.GET["q"]
@@ -27,11 +29,18 @@ def all_articles(request):
 
             queries = Q(name__icontains=query) | Q(keywords__icontains=query)
             articles = articles.filter(queries)
+    
+    if request.GET:
+        if 'publication' in request.GET:
+            publications = request.GET['publication'].split(',')
+            articles = articles.filter(publication__name__in=publications)
+            publications = Publication.objects.filter(name__in=publications)
 
     context = {
         'articles': articles,
         'search_term': query,
         'current_categories': categories,
+        'current_publications': publications,
     }
 
     return render(request, "articles/articles.html", context)

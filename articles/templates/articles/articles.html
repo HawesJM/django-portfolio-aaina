@@ -20,6 +20,11 @@
                         <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
                     </a>
                 {% endfor %}
+                {% for p in current_publications %}
+                    <a class="category-badge text-decoration-none" href="{% url 'articles' %}?publication={{ p.name }}">
+                        <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ p.friendly_name }}</span>
+                    </a>
+                {% endfor %}
             </h2>
             <hr class="w-50 mb-1 mx-auto">
         </div>

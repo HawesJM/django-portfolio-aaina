@@ -45,13 +45,19 @@ a {
 }
 
 .nav-bar-one a {
-  color: #112A46;
+  color: #112A46 !important;
 }
 
 .nav-bar-one a:hover {
   color: #112A46 !important;
   font-weight: bold;
 }
+
+.nav-bar-one a:focus {
+  background-color: #FFFBF6 !important;
+  font-weight: bold;
+}
+
 
 #nav-bar-two {
   text-align: center;

@@ -1,0 +1,18 @@
+[
+    {
+        "pk": 1,
+        "model": "articles.publication",
+        "fields": {
+            "name": "tatler_asia",
+            "friendly_name": "Tatler"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "articles.publication",
+        "fields": {
+            "name": "art_review",
+            "friendly_name": "Art Review"
+        }
+    }
+]

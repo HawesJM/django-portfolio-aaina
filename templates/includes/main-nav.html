@@ -16,6 +16,7 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-articles-link">
                 <a href="{% url 'articles' %}?category=art,culture" class="dropdown-item">All Articles</a>
+                <a href="{% url 'articles' %}?publication=tatler_asia,art_review" class="dropdown-item">By Publication</a>
                 <a href="{% url 'articles' %}?category=art" class="dropdown-item">Art</a>
                 <a href="{% url 'articles' %}?category=culture" class="dropdown-item">Culture</a>
             </div>
