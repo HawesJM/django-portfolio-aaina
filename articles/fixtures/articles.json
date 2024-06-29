@@ -578,14 +578,212 @@
         "model": "articles.article",
         "fields": {
             "category": 1,
-            "name": "Who Is Pak? We Interview the Mysterious NFT Creator",
-            "keywords": "NFTs| Blockchain | Technology",
+            "name": "Ami Lien & Enzo Camacho’s Monument to Escalante",
+            "keywords": "Film| History | Exhibitions",
             "image_url": "",
             "image": "ami-lien-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/who-is-pak",
-            "published_date": "10th March 2022",
+            "url": "https://artreview.com/amy-lien-enzo-camacho-offerings-for-escalante-para-site-hong-kong-review/",
+            "published_date": "26th March 2024",
             "publication": 2
         }
+    },
+    {
+        "pk": 43,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Can Hong Kong’s Newest Museum Live Up To The Hype?",
+            "keywords": "Museums| Exhibitions | Architecture",
+            "image_url": "",
+            "image": "m-plus-cover.png",
+            "url": "https://artreview.com/can-hong-kong-newest-museum-live-up-to-the-hype-m-plus/",
+            "published_date": "10th December 2021",
+            "publication": 2
+        }
+    },
+    {
+        "pk": 44,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Staying Afloat When Hong Kong Is Sinking",
+            "keywords": "Environment| Exhibitions | Politics",
+            "image_url": "",
+            "image": "liquid-ground-cover.png",
+            "url": "https://artreview.com/staying-afloat-when-hong-kong-is-sinking/",
+            "published_date": "12th November 2021",
+            "publication": 2
+        }
+    },
+    {
+        "pk": 45,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Need For Speed: Drone Races and Humans’ Obsession with Acceleration",
+            "keywords": "Technology| Architecture | Digital",
+            "image_url": "",
+            "image": "need-for-speed-cover.png",
+            "url": "https://artreview.com/need-for-speed-drone-races-and-humans-obsession-with-acceleration/",
+            "published_date": "6th May 2021",
+            "publication": 2
+        }
+    },
+    {
+        "pk": 46,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Lee Kit and Kingsley Ng Warp Time and Space in Hong Kong",
+            "keywords": "Time| Modernity | Literature",
+            "image_url": "",
+            "image": "oi-art-space.png",
+            "url": "https://artreview.com/lee-kit-and-kingsley-ng-warp-time-and-space-in-hong-kong-oi-art-space/",
+            "published_date": "2nd March 2021",
+            "publication": 2
+        }
+    },
+    {
+        "pk": 47,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Portals, Stories, and Other Journeys",
+            "keywords": "Exhibitions| Archives | Photography",
+            "image_url": "",
+            "image": "portals-journeys-cover.png",
+            "url": "https://www.e-flux.com/criticism/407148/portals-stories-and-other-journeys",
+            "published_date": "6th July 2021",
+            "publication": 3
+        }
+    },
+    {
+        "pk": 48,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "How galleries overcame the challenges of the pandemic era",
+            "keywords": "Exhibitions| Archives | Photography",
+            "image_url": "",
+            "image": "pandemic-challenges-cover.png",
+            "url": "https://www.artbasel.com/stories/galleries-navigating-the-pandemic-hong-kong-2022",
+            "published_date": "3rd May 2022",
+            "publication": 4
+        }
+    },
+    {
+        "pk": 49,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Tarot, astrology, feng shui – why is Hong Kong’s art world going dotty over divination?",
+            "keywords": "Self | Home | Videogames",
+            "image_url": "",
+            "image": "feng-shui-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3157982/tarot-astrology-feng-shui-why-hong-kongs-art-world-going",
+            "published_date": "1st December 2021",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 50,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Recent Hong Kong history, from Sars epidemic to ‘umbrella movement’ to ‘fear of now’, inspires city artists’ work, on show in two exhibitions",
+            "keywords": "Politics| Exhibitions | Society",
+            "image_url": "",
+            "image": "jaffa-lam-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3142548/recent-hong-kong-history-sars-epidemic-umbrella-movement",
+            "published_date": "27th July 2021",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 51,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Architect David Adjaye’s marble sculptures paired with Adam Pendleton’s text-based paintings for Hong Kong show",
+            "keywords": "Architecture| History | Identity",
+            "image_url": "",
+            "image": "david-adjaye-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3133361/architect-david-adjayes-marble-sculptures-paired-adam",
+            "published_date": "14th May 2021",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 52,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "The promise of a new life in America for Chinese children explored in short film Magic Kingdom",
+            "keywords": "Immigration| History | Identity",
+            "image_url": "",
+            "image": "magic-kingdom-cover.png",
+            "url": "https://www.scmp.com/lifestyle/entertainment/article/3129307/promise-new-life-america-chinese-children-explored-short",
+            "published_date": "13th April 2021",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 53,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Candice Lin, Chinese-American artist, on her first solo show in China and its focus on the migrant experience",
+            "keywords": "Immigration| History | Identity",
+            "image_url": "",
+            "image": "candice-lin-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3128205/candice-lin-chinese-american-artist-her-first-solo-show",
+            "published_date": "3rd April 2021",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 54,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Independent art finds room to flourish in Hong Kong as young artists and creatives grab retail spaces left empty by the pandemic",
+            "keywords": "Commercial| Exhibitions | Independent ",
+            "image_url": "",
+            "image": "eunice-tsang-cover.png",
+            "url": "https://www.scmp.com/culture/article/3122236/independent-art-finds-room-flourish-hong-kong-young-artists-and-creatives",
+            "published_date": "20th February 2021",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 55,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "How rich millennials are shaking up China’s art market",
+            "keywords": "Museums| Galleries | Youth ",
+            "image_url": "",
+            "image": "michael-huang-cover.png",
+            "url": "https://www.scmp.com/magazines/post-magazine/long-reads/article/3112430/rich-millennials-shaking-chinas-art-market",
+            "published_date": "6th December 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 56,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "How racism and discrimination affect black people in China and Hong Kong",
+            "keywords": "Race| Immigration | Society ",
+            "image_url": "",
+            "image": "little-africa-cover.png",
+            "url": "https://www.scmp.com/lifestyle/article/3112105/how-racism-and-discrimination-affects-black-people-china-and-hong-kong",
+            "published_date": "2nd December 2020",
+            "publication": 5
+        }
     }
+
+
     
 ]

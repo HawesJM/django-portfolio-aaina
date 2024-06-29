@@ -4,7 +4,7 @@
         "model": "articles.publication",
         "fields": {
             "name": "tatler_asia",
-            "friendly_name": "Tatler"
+            "friendly_name": "Tatler Asia"
         }
     },
     {
@@ -13,6 +13,30 @@
         "fields": {
             "name": "art_review",
             "friendly_name": "Art Review"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "articles.publication",
+        "fields": {
+            "name": "e_flux",
+            "friendly_name": "e-flux"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "articles.publication",
+        "fields": {
+            "name": "art_basel",
+            "friendly_name": "Art Basel"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "articles.publication",
+        "fields": {
+            "name": "scmp",
+            "friendly_name": "SCMP"
         }
     }
 ]
