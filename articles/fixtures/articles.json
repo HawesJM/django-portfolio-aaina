@@ -107,8 +107,471 @@
             "image_url": "",
             "image": "emma-raducanu-cover.png",
             "url": "https://www.tatlerasia.com/lifestyle/sports/emma-raducanu-january-cover",
-            "published_date": "29th December 2022",
+            "published_date": "29th December 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Neo Rauch on being a ‘painter’s painter’, his wife’s influence on his work—and his upcoming exhibition at David Zwirner Hong Kong",
+            "keywords": "Painting | Cooking | Comics",
+            "image_url": "",
+            "image": "neo-rauch-profile.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/neo-rauch-david-zwirner-hong-kong-exhibition",
+            "published_date": "9th November 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Inside Manchester’s Aviva Studios, which pays homage to the city’s industrial history and ’80s music scene",
+            "keywords": "Architecture | Industry | Theatre",
+            "image_url": "",
+            "image": "aviva-studios-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/aviva-studios-factory-international-manchester",
+            "published_date": "15th December 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "What’s the link between art and video games? Breaking down the unexpected connection you can’t unsee once you know about it",
+            "keywords": "Technology | Gaming | Digital",
+            "image_url": "",
+            "image": "build-mode-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/video-games-and-art",
+            "published_date": "21st October 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Meet the social media influencers who are preserving India’s history and culture by evoking nostalgia",
+            "keywords": "Tourism | History | Architecture",
+            "image_url": "",
+            "image": "monumental-nostalgia-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/india-cultural-heritage-documenting-preserving",
+            "published_date": "10th October 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Swedish Chinese artist Lap-see Lam, whose work will be displayed at Venice Biennale 2024, on drawing from Cantonese mythology, personal loss and more",
+            "keywords": "Film | Animation | Loss",
+            "image_url": "",
+            "image": "lap-see-lam-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/venice-biennale-2024-lap-see-lam-international-chinese-artist",
+            "published_date": "7th October 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Beyond Frieze Seoul, here are the exhibitions you don’t want to miss while in the capital of South Korea",
+            "keywords": "Museums | Exhibitions | Parties",
+            "image_url": "",
+            "image": "frieze-seoul-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/frieze-seoul-art-exhibitions",
+            "published_date": "3rd September 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Meet Karpe, the Norwegian duo who cracked the code on fusion music, sing about being immigrant kids and inspired viral dance crew Quick Style",
+            "keywords": "Music | Dance | Ethnicity",
+            "image_url": "",
+            "image": "karpe-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/karpe-norwegian-rap-for-tatler",
+            "published_date": "1st August 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Puerto Rican artist Angel Otero on fusing abstraction and surrealism, his upcoming Hong Kong exhibition",
+            "keywords": "Memory | Abstraction | Fantasy",
+            "image_url": "",
+            "image": "angel-otero-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/angel-otero-brings-abstract-paintings-to-asia",
+            "published_date": "31st May 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Rahul Mishra on his duty to create employment and ‘worshipping at the temple of couture’",
+            "keywords": "Beauty | Fashion | Celebrities",
+            "image_url": "",
+            "image": "rahul-mishra-cover.png",
+            "url": "https://www.tatlerasia.com/style/fashion/rahul-mishra-designer-responsibility",
+            "published_date": "2nd July 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Meet Sin Wai Kin: the first individual non-binary artist nominated for the prestigious Turner Prize",
+            "keywords": "Gender | Performance | Music",
+            "image_url": "",
+            "image": "sin-wai-kin-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/turner-prize-nominee-sin-wai-kin",
+            "published_date": "9th June 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "The first Central Asian textile art exhibition in the Greater China region wows Hong Kong",
+            "keywords": "Religion | Crafts | History",
+            "image_url": "",
+            "image": "patterns-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/central-asia-art-exhibtion",
+            "published_date": "30th April 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Meet the Hong Kong artist turned part-time farmer",
+            "keywords": "Nature | Environment | Agriculture",
+            "image_url": "",
+            "image": "slowdown-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/the-slow-down",
+            "published_date": "11th April 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "From Japanese manga to African mythology, Tunji Adeniyi-Jones shares his inspirations ahead of his first solo exhibition in Asia",
+            "keywords": "Race | Mythology | Comics",
+            "image_url": "",
+            "image": "adeniyi-jones-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/tunji-adeniyi-jones-first-exhibition-hong-kong",
+            "published_date": "17th March 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Beyond Art Basel: 5 local artists representing Hong Kong in exhibitions around the world in 2023",
+            "keywords": "Emigration | Pandemic | Protests",
+            "image_url": "",
+            "image": "going-global-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/hong-kong-artists-international-solo-exhibitions",
+            "published_date": "23rd February 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "From Kimsooja to Shubigi Rao: Here are 7 female artists in Hong Kong to look out for this art month",
+            "keywords": "Education | Literature | Perception",
+            "image_url": "",
+            "image": "female-gaze-cover.png",
+            "url": "https://www.tatlerasia.com/power-purpose/front-female/female-artists-art-month-2023",
+            "published_date": "3rd March 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Hong Kong’s first major LGBTQ+ art exhibition opens at Tai Kwun",
+            "keywords": "Sexuality | Gender | Mythology",
+            "image_url": "",
+            "image": "queer-world-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/myth-makers-at-sunpride-taikwun",
+            "published_date": "16th February 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Rashid Johnson’s first solo exhibition in Asia is a must-see for Hong Kong art lovers",
+            "keywords": "Anxiety | Communication | Race",
+            "image_url": "",
+            "image": "rashid-johnson-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/art-basel-rashid-johnson",
+            "published_date": "3rd March 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Artist Korakrit Arunanondchai on community, duality in his art, and why he sets his work on fire—literally",
+            "keywords": "Society | Mythology | Politics",
+            "image_url": "",
+            "image": "korakrit-arunanondchai-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/thai-artist-korakrit-arunanondchai",
+            "published_date": "16th January 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Feminism, diaspora and the afterlife: Artist Zadie Xa explores identity in her Korean folklore-inspired installations",
+            "keywords": "Death | Ritual | Identity",
+            "image_url": "",
+            "image": "zadie-xa-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/korean-canadian-artist-zadie-xa",
+            "published_date": "29th January 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Meet Quick Style, the dance crew that choreographed for BTS and inspired a viral TikTok challenge",
+            "keywords": "Music | Social Media | Creativity",
+            "image_url": "",
+            "image": "quick-style-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/quick-style-dance-crew",
+            "published_date": "2nd January 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Edouard Malingue and Lorraine Kiang open much awaited new gallery space that reflects their Hong Kong roots",
+            "keywords": "Exhibitions | Architecture | Business",
+            "image_url": "",
+            "image": "edouard-malingue-lorraine-kiang-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/edouard-malingue-and-lorraine-kiang-open-their-much-awaited-new-gallery-space",
+            "published_date": "9th January 2023",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "You’ve Heard of Yayoi Kusama—Here’s Why You Should Care",
+            "keywords": "Exhibitions | Curation | Self",
+            "image_url": "",
+            "image": "kusama-viewing-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/yayoi-kusama-at-m-plus-2022",
+            "published_date": "4th November 2022",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Witches, Magic, and Tarot Make a Cultural Comeback",
+            "keywords": "Fantasy | Mysticism | Astrology",
+            "image_url": "",
+            "image": "spellbound-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/witches-magic-and-mysticism-are-making-a-comeback",
+            "published_date": "31st October 2022",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "How Seoul Is Becoming a Top Art Destination",
+            "keywords": "Exhibitions | Travel | Digital",
+            "image_url": "",
+            "image": "frieze-seoul-22-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/frieze-art-fair-opens-its-inaugural-edition-in-seoul-opens-this-week",
+            "published_date": "29th August 2022",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Jewellery Designer Wallace Chan Creates a Temple in Venice",
+            "keywords": "Sculpture | Religion | Nature",
+            "image_url": "",
+            "image": "wallace-chan-totem.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/jewellery-designer-wallace-chans-creates-a-temple-in-venice",
+            "published_date": "29th August 2022",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Who Is Pipilotti Rist, the Artist Who Inspired an Iconic Scene in Beyonce’s ‘Hold Up’?",
+            "keywords": "Illusion | Nudity | Gender",
+            "image_url": "",
+            "image": "pipilotti-rist-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/pipilotti-rist-at-tai-kwun",
+            "published_date": "28th July 2022",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Meet Zain, the Pakistani-Arab Canto Rapper from Hong Kong",
+            "keywords": "Music | Society | Social Media",
+            "image_url": "",
+            "image": "zain-syed-cover.png",
+            "url": "https://www.tatlerasia.com/power-purpose/ideas-education/meet-zain-canto-rapper-hong-kong",
+            "published_date": "19th August 2022",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Axel Vervoordt on Art, Spirituality and the Wabi-Sabi Philosophy",
+            "keywords": "Interior Design | Imperfection | Antiquities",
+            "image_url": "",
+            "image": "axel-vervoordt-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/living-wabi-savvy-with-axel-vervoordt",
+            "published_date": "21st July 2022",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Meet the First Asian Collective to Curate This Major Contemporary Art Show",
+            "keywords": "Friendship| Documenta | Community",
+            "image_url": "",
+            "image": "ruangrupa-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/ruang-rupa-documenta-fifteen",
+            "published_date": "22nd June 2022",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Meet Brendan Dawes, NFT Collector WhaleShark’s Favourite Digital Artist",
+            "keywords": "Digital| NFTs | Community",
+            "image_url": "",
+            "image": "dawes-minutes-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/brendan-dawes-nft-artist",
+            "published_date": "16th June 2022",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Meet the Artist Turning Old Aeroplanes into Classrooms",
+            "keywords": "Education| History | Community",
+            "image_url": "",
+            "image": "ibrahim-mahama-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/ibrahim-mahama-half-a-yellow-sun",
+            "published_date": "22nd April 2022",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Levitating at Venice Biennale? How Hong Kong Artist Angela Su Plans to Rise Above the Rest",
+            "keywords": "Anime| Film | Society",
+            "image_url": "",
+            "image": "angela-su-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/angela-su-vennice-biennale",
+            "published_date": "3rd April 2022",
+            "publication": "Tatler Asia"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Who Is Pak? We Interview the Mysterious NFT Creator",
+            "keywords": "NFTs| Blockchain | Technology",
+            "image_url": "",
+            "image": "pak-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/who-is-pak",
+            "published_date": "10th March 2022",
             "publication": "Tatler Asia"
         }
     }
+    
 ]
