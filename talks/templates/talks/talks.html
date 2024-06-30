@@ -13,50 +13,26 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col text-center mt-3">
-            <h2> Articles
-                <br>
-                {% for c in current_categories %}
-                    <a class="category-badge text-decoration-none" href="{% url 'articles' %}?category={{ c.name }}">
-                        <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
-                    </a>
-                {% endfor %}
-                {% for p in current_publications %}
-                    <a class="category-badge text-decoration-none" href="{% url 'articles' %}?publication={{ p.name }}">
-                        <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ p.friendly_name }}</span>
-                    </a>
-                {% endfor %}
-            </h2>
+            <h2> Talks
             <hr class="w-50 mb-1 mx-auto">
         </div>
     </div>
     <div class="row">
         <div class="article-container col-10 offset-1">
             <div class="row mt-1 mb-2"></div>
-            <div class="col-12 col-md-6 order-md-first">
-                <p class="text-muted mt-3 text-center text-md-left">
-                    {% if search_term or current_categories != 'None_None' %}
-                        <span class="small"><a href="{% url 'articles' %}">All Articles</a> | </span>
-                        <span class="small"><a href="{% url 'articles' %}?publication=tatler_asia,art_review,e_flux,art_basel,scmp">By Publication</a> | </span>
-                        <span class="small"><a href="{% url 'articles' %}?category=art,culture">By Category</a> | </span>
-                    {% endif %}
-                    {{ articles|length }} Articles{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
-                </p>
-            </div>
             <div class="row">
-                {% for article in articles %}
+                {% for talk in talks %}
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card h-100 border-0 shadow-lg">
-                        {% if article.image %}
-                        <a target="_blank" href="{{ article.url }}">
-                            <img class="card-img-top img-fluid" src="{{ article.image.url }}" alt="{{ product.name }}">
-                        </a>
-                        {% else %}
-                        <a href="">
-                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
-                        </a>
-                        {% endif %}
                         <div class="card-body pb-0">
-                            <p class="mb-0">{{ article.name }}</p>
+                            {% if talk.embed_url %}
+                            <iframe width="" height="" src="{{ talk.embed_url }}" title="{{ talks.name }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            {% else %}
+                            <a target="_blank" href="{{ talk.url }}">
+                                <img class="card-img-top img-fluid" src="{{ talk.image.url }}" alt="{{ product.name }}">
+                            </a>
+                            {% endif %}
+                            <p class="mb-0">{{ talk.name }}</p>
                         </div>
                         <div class="card-footer bg-white pt-0 border-0 text-left">
                             <div class="row">
@@ -74,8 +50,8 @@
                                     {% if request.user.is_superuser %}
                                     <br>
                                         <small class="ml-3">
-                                            <a class="text-info" href="{% url 'edit_article' article.id %}">Edit</a>
-                                            <a class="text-danger" href="{% url 'delete_article' article.id %}">Delete</a>
+                                            <a class="text-info" href="">Edit</a>
+                                            <a class="text-danger" href="">Delete</a>
                                     </small>
                                     {% endif %}
                                 </div>

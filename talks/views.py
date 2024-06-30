@@ -9,4 +9,9 @@ from django.core.paginator import Paginator
 def all_talks(request):
 
     talks = Talk.objects.all()
-    return render(request, "talks/talks.html")
+
+    context = {
+        'talks':talks
+    }
+
+    return render(request, "talks/talks.html", context)
