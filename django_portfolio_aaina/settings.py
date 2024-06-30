@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'articles',
     'library',
     'profiles',
+    'talks',
     'crispy_forms',
     'crispy_bootstrap5'
 ]

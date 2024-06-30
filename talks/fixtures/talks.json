@@ -1,0 +1,11 @@
+[
+    {
+        "pk": 1,
+        "model": "talks.talk",
+        "fields": {
+            "name": "In Conversation: Nicolas Party and Aaina Bhargava",
+            "url":"https://youtu.be/HrPhBtg9nUk",
+            "recorded_date": "13th July 2022"
+        }
+    }
+]
