@@ -782,8 +782,63 @@
             "published_date": "2nd December 2020",
             "publication": 5
         }
+    },
+    {
+        "pk": 57,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Racism, feeling invisible: podcast on the black experience in Hong Kong, HomeGrown, acts as a guide for expats",
+            "keywords": "Race| Immigration | Society ",
+            "image_url": "",
+            "image": "home-grown-cover.png",
+            "url": "https://www.scmp.com/lifestyle/entertainment/article/3110345/racism-feeling-invisible-podcast-black-experience-hong-kong",
+            "published_date": "19th November 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 58,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Belgian artist Luc Tuymans’ Hong Kong exhibition plays on ‘Made in China’, colonialism and global trade",
+            "keywords": "History| Perspective | Commerce ",
+            "image_url": "",
+            "image": "luc-tymans-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3107194/belgian-artist-luc-tuymans-hong-kong-exhibition-plays-made",
+            "published_date": "27th October 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 59,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Why keep Hong Kong’s light show going with no tourists, artist asks as part of show exploring his personal and political fascination with lights",
+            "keywords": "Politics| Tourism | COVID ",
+            "image_url": "",
+            "image": "lights-symphony-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3100047/why-keep-hong-kongs-light-show-going-no-tourists-artist-asks",
+            "published_date": "3rd Sep 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 60,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "From Tesla cars to Brazilian waxes, being smooth is everything in today’s world – but why, artist wonders",
+            "keywords": "Identity| Aesthetics | Consumerism ",
+            "image_url": "",
+            "image": "jess-fan-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3099350/tesla-cars-brazilian-waxes-being-smooth-everything-todays",
+            "published_date": "29th August 2020",
+            "publication": 5
+        }
     }
-
 
     
 ]

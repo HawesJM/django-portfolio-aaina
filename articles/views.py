@@ -4,6 +4,8 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from .models import Article, Category, Publication
 from .forms import ArticleForm
+from django.views.generic import ListView
+from django.core.paginator import Paginator
 
 
 def all_articles(request):
@@ -12,9 +14,19 @@ def all_articles(request):
     query = None
     categories = None
     publications = None
-
-
+    sort = None
+    direction = None
+    
     if request.GET:
+        if 'sort' in request.GET:
+            sortkey = request.GET['sort']
+            sort = sortkey
+
+            if 'direction' in request.GET:
+                direction = request.GET['direction']
+                if direction == 'desc':
+                    sortkey = f'-{sortkey}'
+
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             articles = articles.filter(category__name__in=categories)
@@ -36,14 +48,28 @@ def all_articles(request):
             articles = articles.filter(publication__name__in=publications)
             publications = Publication.objects.filter(name__in=publications)
 
+    current_sorting = f'{sort}_{direction}'
+
+    page = request.GET.get('page', 1)
+    paginator = Paginator(articles, 20)
+    try:
+        articles = paginator.page(page)
+    except PageNotAnInteger:
+        articles = paginator.page(1)
+    except EmptyPage:
+        articles = paginator.page(paginator.num_pages)
+
+
     context = {
         'articles': articles,
         'search_term': query,
         'current_categories': categories,
         'current_publications': publications,
+        'current_sorting': current_sorting,
     }
 
     return render(request, "articles/articles.html", context)
+    return render(request, 'core/articles.html', { 'articles': articles })
 
 @login_required
 def add_article(request):
