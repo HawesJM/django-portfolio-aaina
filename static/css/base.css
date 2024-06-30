@@ -238,6 +238,11 @@ a {
   cursor: pointer;
 }
 
+.pagination {
+  text-align: center;
+  display: block;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
