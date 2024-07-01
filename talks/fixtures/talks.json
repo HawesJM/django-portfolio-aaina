@@ -45,5 +45,17 @@
             "image": "ubs-basel-talk.png",
             "date": ""
         }
+    },
+    {
+        "pk": 5,
+        "model": "talks.talk",
+        "fields": {
+            "name": "Shaping the Future of Non-profit Art Spaces in Asia  | BODW 2022",
+            "url":"https://www.bodw.com/en/explore/shaping-the-future-of-non-profit-art-spaces-in-asia-bodw-2022",
+            "recorded_date": "1st December 2022",
+            "embed_url": "",
+            "image": "bodw-talk-cover.png",
+            "date": ""
+        }
     }
 ]
