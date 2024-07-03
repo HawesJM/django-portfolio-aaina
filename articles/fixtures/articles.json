@@ -838,7 +838,540 @@
             "published_date": "29th August 2020",
             "publication": 5
         }
+    },
+    {
+        "pk": 61,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Artist Christopher K. Ho reflects on identity, the meaning of home and the nature of the nation state",
+            "keywords": "Identity | Nationalism | Emigration ",
+            "image_url": "",
+            "image": "christopher-ho-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3098015/artist-christopher-k-ho-reflects-identity-meaning-home-and",
+            "published_date": "20th August 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 62,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Hong Kong artist Wong Ping’s darkly humorous animated videos ‘talk about things which are kind of taboo but experienced by people in their daily life’",
+            "keywords": "Animation | Society | Exhibitions ",
+            "image_url": "",
+            "image": "wong-pinky-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3097028/hong-kong-artist-wong-pings-darkly-humorous-animated-videos",
+            "published_date": "12th August 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 63,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Artists, celebrities and designers decorate skateboard decks for online exhibition and charity auction in Hong Kong’",
+            "keywords": "Healthcare | Society | Magazines ",
+            "image_url": "",
+            "image": "joseph-wong-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3096453/artists-celebrities-and-designers-decorate-skateboard-decks",
+            "published_date": "9th August 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 64,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "How art sensation Matthew Wong learned his craft in Hong Kong – tutor recalls an eager student, gallerist his eye for detail",
+            "keywords": "Photography | Painting | Galleries ",
+            "image_url": "",
+            "image": "matthew-wong-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3094068/how-art-sensation-matthew-wong-learned-his-craft-hong-kong",
+            "published_date": "22nd July 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 65,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Congolese model takes on Hong Kong’s prejudiced fashion industry",
+            "keywords": "Modelling | Society | Beauty ",
+            "image_url": "",
+            "image": "ann-marie-cover.png",
+            "url": "https://www.scmp.com/lifestyle/fashion-beauty/article/3093549/congolese-model-takes-hong-kongs-prejudiced-fashion",
+            "published_date": "20th July 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 66,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Hong Kong history marked absent from city’s international school education",
+            "keywords": "History | Education | Politics ",
+            "image_url": "",
+            "image": "hk-history-cover.png",
+            "url": "https://www.scmp.com/magazines/post-magazine/short-reads/article/3092471/hong-kong-history-marked-absent-citys",
+            "published_date": "13th July 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 67,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Raw power of Basquiat on show in Hong Kong – he’s ‘so of the moment’, Lévy Gorvy gallery co-founder Brett Gorvy says",
+            "keywords": "Galleries | Exhibitions | Painting ",
+            "image_url": "",
+            "image": "jm-basquiat-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3091947/raw-power-basquiat-show-hong-kong-hes-so-moment-levy-gorvy",
+            "published_date": "6th July 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 68,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Contemporary relics from sculptor Leelee Chan showcase her passion for making art from found objects",
+            "keywords": "Sculpture | Antiques | Artefacts ",
+            "image_url": "",
+            "image": "leelee-chan-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3090557/contemporary-relics-sculptor-leelee-chan-showcase-her",
+            "published_date": "26th June 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 69,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Lorna Simpson: ‘Who knew coronavirus would bring about a political change?’ New York artist living in the moment",
+            "keywords": "Politics | Society | Race ",
+            "image_url": "",
+            "image": "lorna-simpson-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3089473/lorna-simpson-who-knew-coronavirus-would-bring-about",
+            "published_date": "19th June 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 70,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Why the biggest barrier to overcoming racism is ‘white fragility’",
+            "keywords": "Politics | Society | Race ",
+            "image_url": "",
+            "image": "white-fragility-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3088443/why-biggest-barrier-overcoming-racism-white-fragility",
+            "published_date": "10th June 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 71,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "An artist’s love of plants helps him cope with anxiety: in his art, butterfly palms and Venus flytraps stand in lieu of people and challenging relationships’",
+            "keywords": "Anxiety | Relationships | Nature ",
+            "image_url": "",
+            "image": "trevor-yeung-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3088033/artists-love-plants-helps-him-cope-anxiety-his-art-butterfly",
+            "published_date": "9th June 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 72,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "What fabric can teach us about a society’s economy, geography, resources and gender roles",
+            "keywords": "Textiles | Industry | Lifestyle ",
+            "image_url": "",
+            "image": "david-medalla-cover.png",
+            "url": "https://www.scmp.com/magazines/post-magazine/arts-music/article/3087512/what-fabric-can-teach-us-about-societys-economy",
+            "published_date": "7th June 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 73,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Film, music, photography, art – summer highlights of Le French May festival in Hong Kong",
+            "keywords": "Film | Festivals | Food ",
+            "image_url": "",
+            "image": "fifth-element-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3087481/film-music-photography-art-summer-highlights-le-french-may",
+            "published_date": "4th June 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 74,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Emerging Chinese contemporary artists the focus of X Museum, new Beijing museum whose millennial founders want to change perceptions",
+            "keywords": "Museums | Exhibitions | Youth ",
+            "image_url": "",
+            "image": "contemporary-chinese-art-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3086680/emerging-chinese-contemporary-artists-focus-x-museum-new",
+            "published_date": "30th May 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 75,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Four More Shots Please! shows modern urban Indian female lives, but is it country’s Sex and the City?",
+            "keywords": "Sex | TV | Gender ",
+            "image_url": "",
+            "image": "four-more-shots.png",
+            "url": "https://www.scmp.com/lifestyle/entertainment/article/3086144/four-more-shots-please-shows-modern-urban-indian-female",
+            "published_date": "28th May 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 76,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Part art fair, part exhibition, new Hong Kong event set to reinvigorate city’s art scene",
+            "keywords": "Exhibitions | Galleries | Auctions ",
+            "image_url": "",
+            "image": "unscheduled-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3085576/part-art-fair-part-exhibition-new-hong-kong-event-set",
+            "published_date": "25th May 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 77,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Feminist YouTuber Mak Ying-tung on challenging Damien Hirst, braving an open mic, and addressing serious issues in her signature ‘fun and crazy’ way",
+            "keywords": "Video | Comedy | Society ",
+            "image_url": "",
+            "image": "mak-ying-tung-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3085096/everything-i-do-fun-youtube-artist-whose-latest-work-film",
+            "published_date": "20th May 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 78,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Contemporary artists reflect on Hong Kong’s recent history in Asia Society show",
+            "keywords": "Exhibitions | Politics | Society ",
+            "image_url": "",
+            "image": "falling-carefully.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3084386/contemporary-artists-reflect-hong-kongs-recent-history-asia",
+            "published_date": "14th May 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 79,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Post-internet art: 5 Chinese artists taking aim at country’s digital world",
+            "keywords": "Data | Censorship | Internet ",
+            "image_url": "",
+            "image": "cyber-altar-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3083449/post-internet-art-5-chinese-artists-taking-aim-countrys",
+            "published_date": "8th May 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 80,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "How online art galleries and viewing rooms are changing the industry",
+            "keywords": "E-commerce | Consumption | Internet ",
+            "image_url": "",
+            "image": "online-galleries-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3081839/how-online-art-galleries-and-viewing-rooms-are-changing",
+            "published_date": "28th April 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 81,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Toys become an auction hit thanks to popularity of artists such as Kaws, Yoshitomo Nara and Takashi Murakami",
+            "keywords": "Sculpture | Figurines | Auctions ",
+            "image_url": "",
+            "image": "eric-so-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3081004/toys-become-auction-hit-thanks-popularity-artists-such-kaws",
+            "published_date": "24th April 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 82,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "When a wall is more than just a wall – artists’ Hong Kong exhibition a study in contrasts and context",
+            "keywords": "History | Identity | Photography ",
+            "image_url": "",
+            "image": "two-artists-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3080335/society-flux-artists-reflect-communitys-sense-bonding",
+            "published_date": "17th April 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 83,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "‘We’re in the post-apocalypse now’: artist creates a deformed world filled with expired Nokia phones and Game Boys",
+            "keywords": "Dystopia | Nature | Technology ",
+            "image_url": "",
+            "image": "creepy-pink-orbs.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3079159/were-post-apocalypse-now-artist-creates-deformed-world",
+            "published_date": "10th April 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 84,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Coronavirus compared to Sars, ‘Yellow Peril’ and death of Leslie Cheung in exhibition on Hong Kong’s past traumas",
+            "keywords": "Pandemics | History | Politics ",
+            "image_url": "",
+            "image": "man-in-cage.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3078597/coronavirus-compared-sars-yellow-peril-and-death-leslie",
+            "published_date": "6th April 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 84,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Architects’ award-winning redesign of University of Hong Kong medical school lobby throws away convention",
+            "keywords": "Design | Academia | Medicine ",
+            "image_url": "",
+            "image": "atelier-nuno-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3075750/architects-award-winning-redesign-university-hong-kong",
+            "published_date": "20th March 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 85,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Can’t visit that art show? There’s an app for that – KAWS brings augmented reality sculptures to your smartphone",
+            "keywords": "Digital | Apps | Technology ",
+            "image_url": "",
+            "image": "kaws-ar.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3075496/cant-visit-art-show-theres-app-kaws-brings-augmented-reality",
+            "published_date": "18th March 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 86,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Hong Kong protest art: ‘dystopia’ of street violence captured in paintings taut with emotion",
+            "keywords": "Politics | Society | Photography ",
+            "image_url": "",
+            "image": "chow-chun-fai.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3075028/hong-kong-protest-art-dystopia-street-violence-captured",
+            "published_date": "14th March 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 87,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Art world fights coronavirus with digital shows in wake of mainland China and Hong Kong event cancellations",
+            "keywords": "Internet | Exhibitions | Pandemic ",
+            "image_url": "",
+            "image": "shanghai-power-station.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3051762/art-world-fights-coronavirus-digital-shows-wake-mainland",
+            "published_date": "23rd February 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 88,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Hong Kong artists elected as district councillors on city’s identity issues and boosting the local arts scene",
+            "keywords": "Politics | Identity | Expression ",
+            "image_url": "",
+            "image": "clara-cheung-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3049797/hong-kong-artists-elected-district-councillors-citys",
+            "published_date": "14th February 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 89,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Dealers back Art Basel Hong Kong cancellation over coronavirus; Hong Kong galleries see chance for local art to shine",
+            "keywords": "Exhibitions | Localism | Pandemic ",
+            "image_url": "",
+            "image": "light-matter-collective.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3049566/dealers-back-art-basel-hong-kong-cancellation-over",
+            "published_date": "7th February 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 90,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Art Basel: Hong Kong galleries back organiser amid calls to cancel fair over protests, coronavirus emergency",
+            "keywords": "Exhibitions | Galleries | Zao Wou-Ki ",
+            "image_url": "",
+            "image": "villepin-gallery-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3048393/hong-kong-art-gallery-former-french-prime-minister-dominique",
+            "published_date": "1st February 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 91,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Art Basel: Hong Kong galleries back organiser amid calls to cancel fair over protests, coronavirus emergency",
+            "keywords": "Exhibitions | Galleries | Pandemic ",
+            "image_url": "",
+            "image": "art-basel-2020.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3048469/art-basel-hong-kong-galleries-back-organiser-amid-calls",
+            "published_date": "1st February 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 92,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Failed attempts at creating utopias inspire Hong Kong artist’s exhibition ‘Swampland’ at Hanart TZ Gallery",
+            "keywords": "Horror | Dystopia | Pandemic ",
+            "image_url": "",
+            "image": "swampland-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3047769/failed-attempts-creating-utopias-inspire-hong-kong-artists",
+            "published_date": "27th January 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 93,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "From sitar star to Gandhi’s granddaughter, Indian festival in Hong Kong a showcase of country’s culture",
+            "keywords": "Music | Theatre | Festivals ",
+            "image_url": "",
+            "image": "indian-festival-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3045378/sitar-star-gandhis-granddaughter-indian-festival-hong-kong",
+            "published_date": "10th January 2020",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 94,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Pink diamonds, rare already, about to get more scarce as the biggest mine producing them closes",
+            "keywords": "Jewellery | Luxury | Auctions ",
+            "image_url": "",
+            "image": "argyle-diamond-mine.png",
+            "url": "https://www.scmp.com/lifestyle/fashion-beauty/article/3043401/pink-diamonds-rare-already-about-get-more-scarce-biggest",
+            "published_date": "26th December 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 95,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Exhibition of Banksy street art opens in Hong Kong, and his anti-police message should strike a chord",
+            "keywords": "Exhibitions | Street Art | Politics ",
+            "image_url": "",
+            "image": "banksy-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3043375/exhibition-banksy-street-art-opens-hong-kong-and-his-anti",
+            "published_date": "24th December 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 96,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Through the ‘dragon gate’: artist explores feng shui as an emblem for personal agency",
+            "keywords": "Architecture | Feng Shui | Mythology ",
+            "image_url": "",
+            "image": "dragon-gate.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3043039/through-dragon-gate-artist-explores-feng-shui-emblem",
+            "published_date": "21st December 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 97,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "From blow-up Banksy to that banana, the most memorable and sensational art events of the past 10 years",
+            "keywords": "Events | Commerce | Consumption ",
+            "image_url": "",
+            "image": "floating-piers.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3042814/blow-banksy-banana-most-memorable-and-sensational-art-events",
+            "published_date": "19th December 2019",
+            "publication": 5
+        }
     }
+    
 
     
 ]

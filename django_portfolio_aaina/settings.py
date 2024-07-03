@@ -27,9 +27,9 @@ SECRET_KEY = 'django-insecure-&l4l3v!0o0#)il818+n2aowqjm+isw&c)cu6#(beb=ukjou+pa
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-hawesjm-djangoportfolio-p0zxxf0uxns.ws-eu114.gitpod.io']
+ALLOWED_HOSTS = ['8000-hawesjm-djangoportfolio-onggkpifgdh.ws.codeinstitute-ide.net']
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-hawesjm-djangoportfolio-p0zxxf0uxns.ws-eu114.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-hawesjm-djangoportfolio-onggkpifgdh.ws.codeinstitute-ide.net']
 
 # Application definition
 
