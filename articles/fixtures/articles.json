@@ -1370,6 +1370,272 @@
             "published_date": "19th December 2019",
             "publication": 5
         }
+    },
+    {
+        "pk": 98,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Hong Kong Museum of Art and Italy’s Uffizi Gallery to partner on exhibitions, plus seven works you can’t miss at reopened HKMoA",
+            "keywords": "Museums | Galleries | Architecture ",
+            "image_url": "",
+            "image": "tst-art-museum.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3040584/hong-kong-museum-art-and-italys-uffizi-gallery-partner",
+            "published_date": "5th December 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 99,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "‘If you were a triad … If you were a police officer …’ – Hong Kong protests infuse art at Singapore Biennale",
+            "keywords": "Exhibitions | Politics | Law ",
+            "image_url": "",
+            "image": "am-i-a-ghost.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3040179/if-you-were-triad-if-you-were-police-officer-hong-kong",
+            "published_date": "2nd December 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 100,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Bangkok hosts biggest ever show of LGBT art from Southeast Asia",
+            "keywords": "Exhibitions | Sexuality | Music ",
+            "image_url": "",
+            "image": "spectrosynthesis.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3040021/bangkok-hosts-biggest-ever-show-lgbt-art-southeast-asia",
+            "published_date": "2nd December 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 101,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Art and culture in Hong Kong: why art galleries such as Axel Vervoordt are moving to Wong Chuk Hang from the usual tourist areas like Central",
+            "keywords": "Property | Transport | Music ",
+            "image_url": "",
+            "image": "wong-chuk-hang.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3038872/art-and-culture-hong-kong-why-art-galleries-such-axel",
+            "published_date": "1st December 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 102,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "No shortage of suitors for Shanghai art museums as Western counterparts seek exposure in China – France’s Pompidou Centre is the latest",
+            "keywords": "Culture | Exchange | Collaboration ",
+            "image_url": "",
+            "image": "kandinsky-pompidou.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3036912/no-shortage-suitors-shanghai-art-museums-western",
+            "published_date": "8th November 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 103,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Banksy exhibition coming to Hong Kong; first Asia showing to feature more than 70 pieces",
+            "keywords": "Exhibitions | Museums | Street Art ",
+            "image_url": "",
+            "image": "banksy-exhibition-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3034588/banksy-exhibition-coming-hong-kong-first-asia-showing",
+            "published_date": "25th October 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 104,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Sculptor Carol Bove, whose ‘Ten Hours’ exhibition is coming to Hong Kong, on steel and ways of seeing",
+            "keywords": "Sculpture | Perception | Architecture ",
+            "image_url": "",
+            "image": "carol-bove-cover.png",
+            "url": "https://www.scmp.com/magazines/post-magazine/long-reads/article/3034332/conceptual-artist-carol-bove-whose-ten-hours",
+            "published_date": "25th October 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 105,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Big Asian presence at London’s Frieze art fairs, where strong sales belied Brexit fears that have led galleries to open spaces in Paris",
+            "keywords": "Exhibitions | Textiles | Dance ",
+            "image_url": "",
+            "image": "london-frieze-2019.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3032866/big-asian-presence-londons-frieze-art-fairs-where-strong",
+            "published_date": "14th October 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 106,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Korean contemporary art show at London’s Saatchi Gallery to give artists rare international exposure",
+            "keywords": "Exhibitions | Galleries | Contemporary ",
+            "image_url": "",
+            "image": "helena-parada-kim.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3032617/korean-contemporary-art-show-londons-saatchi-gallery-give",
+            "published_date": "12th October 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 107,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Major show of Lucio Fontana’s work at Hauser & Wirth Hong Kong announced for 2021",
+            "keywords": "Exhibitions | Galleries | Dimensions ",
+            "image_url": "",
+            "image": "lucio-fontana-cover.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3030499/major-show-lucio-fontanas-work-hauser-wirth-hong-kong",
+            "published_date": "26th September 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 108,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Made for the fake-news era, this photographer’s work was ahead of its time",
+            "keywords": "Photography | Truth | Reportage ",
+            "image_url": "",
+            "image": "philip-lorca-marilyn.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3029619/made-fake-news-era-photographers-work-was-ahead-its-time",
+            "published_date": "20th September 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 109,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Artists’ reflections on destructive power of nature take on new meaning after Hong Kong’s summer of protest",
+            "keywords": "Politics | Society | Weather ",
+            "image_url": "",
+            "image": "weather-report.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3027156/artists-reflections-destructive-power-nature-take-new",
+            "published_date": "15th September 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 110,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Major exhibitor scales back its debut at Hong Kong art fair amid protests, but is positive about city’s future",
+            "keywords": "Exhibitions | Galleries | Society ",
+            "image_url": "",
+            "image": "francois-xavier-lalanne.png",
+            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3027093/major-exhibitor-scales-back-its-debut-hong-kong-art-fair",
+            "published_date": "13th September 2019",
+            "publication": 5
+        }
+    },
+    {
+        "pk": 110,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Once dubbed 'American Louvre' this museum celebrates creativity in politically charged Washington",
+            "keywords": "Politics | Architecture | Technology ",
+            "image_url": "",
+            "image": "no-spectators-renwick.png",
+            "url": "https://www.museeum.com/once-dubbed-american-louvre-this-museum-celebrates-creativity-in-politically-charged-washington/",
+            "published_date": "24th September 2019",
+            "publication": 6
+        }
+    },
+    {
+        "pk": 111,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Tai Kwun: big station, big architecture, big art, big aspirations",
+            "keywords": "Design | Architecture | History ",
+            "image_url": "",
+            "image": "tai-kwun-police-hq.png",
+            "url": "https://www.museeum.com/tai-kwun-big-station-big-architecture-big-art-big-aspirations/",
+            "published_date": "23rd August 2019",
+            "publication": 6
+        }
+    },
+    {
+        "pk": 112,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "A Hong Kong oasis for a visual and cultural respite",
+            "keywords": "Nature | Architecture | Design ",
+            "image_url": "",
+            "image": "ask-cover.png",
+            "url": "https://www.museeum.com/a-hong-kong-oasis-for-a-visual-and-cultural-respite/",
+            "published_date": "1st August 2019",
+            "publication": 6
+        }
+    },
+    {
+        "pk": 113,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "A Hong Kong art library documenting a vital phenomenon",
+            "keywords": "Learning | Literature | Archives ",
+            "image_url": "",
+            "image": "hk-art-library.png",
+            "url": "https://www.museeum.com/a-hong-kong-art-library-documenting-a-vital-phenomenon/",
+            "published_date": "1st August 2019",
+            "publication": 6
+        }
+    },
+    {
+        "pk": 113,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "The 10 Best Booths at Art Basel in Hong Kong 2021",
+            "keywords": "Exhibitions | Galleries | Pandemic ",
+            "image_url": "",
+            "image": "pilar-corrias-basel.png",
+            "url": "https://www.artsy.net/article/artsy-editorial-10-best-booths-art-basel-hong-kong-2021",
+            "published_date": "20th May 2021",
+            "publication": 7
+        }
+    },
+    {
+        "pk": 113,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "State of the art",
+            "keywords": "Exhibitions | Galleries | Pandemic ",
+            "image_url": "",
+            "image": "old-ladies-home.png",
+            "url": "https://macaomagazine.net/state-of-the-art/",
+            "published_date": "28th January 2021",
+            "publication": 8
+        }
     }
     
 

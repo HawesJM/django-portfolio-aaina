@@ -38,5 +38,29 @@
             "name": "scmp",
             "friendly_name": "SCMP"
         }
+    },
+    {
+        "pk": 6,
+        "model": "articles.publication",
+        "fields": {
+            "name": "museeum.com",
+            "friendly_name": "Museeum.com"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "articles.publication",
+        "fields": {
+            "name": "artsy",
+            "friendly_name": "Artsy"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "articles.publication",
+        "fields": {
+            "name": "macao_magazine",
+            "friendly_name": "Macao Magazine"
+        }
     }
 ]
