@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'library',
     'profiles',
     'talks',
+    'contact',
     'crispy_forms',
     'crispy_bootstrap5'
 ]
@@ -102,6 +103,8 @@ SITE_ID = 1
 WSGI_APPLICATION = 'django_portfolio_aaina.wsgi.application'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = "joshua.m.hawes@gmail.com"
+NOTIFY_EMAIL = "joshua.m.hawes@gmail.com"
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True

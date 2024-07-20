@@ -11,4 +11,5 @@ urlpatterns = [
     path('library/', include('library.urls')),
     path('profile/', include('profiles.urls')),
     path('talks/', include('talks.urls')),
+    path('', include("contact.urls")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
