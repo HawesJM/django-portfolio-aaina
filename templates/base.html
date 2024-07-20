@@ -24,6 +24,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
@@ -46,32 +48,18 @@
 
 <body>
     <!-- main header and navbar -->
-    <div class="container-fluid fixed-top nav-bar-one">
+    <div id="title-header" class="container-fluid fixed-top nav-bar-one">
         <div id="" class="row d-none d-lg-flex">
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a id="navbar-brand" href="{% url 'home' %}"><i class="fa-solid fa-pen-nib"></i> | Aaina Bhargava: Arts &
-                    Culture</a>
-            </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-                <form method="GET" action="{% url 'articles' %}">
-                    <div class="input-group w-100">
-                        <label for="search-bar" class="sr-only">Search</label>
-                        <input class="form-control border border-white rounded-0" type="text" name="q" id="search-bar"
-                            placeholder="search all our articles">
-                        <div class="input-group-append">
-                            <button class="form-control btn btn-white border border-white rounded-0" type="submit">
-                                <p class="sr-only">Search</p>
-                                <span class="icon nav-bar-one">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
+            <div class="col-12 col-lg-12 my-auto mx-auto py-1 py-lg-0 text-center">
+                <a id="navbar-brand" href="{% url 'home' %}"> <br> Aaina Bhargava <br> Arts &
+                    Culture <br>
+                    <i class="fa-solid fa-pen-nib"></i>
+                </a>
             </div>
             <!-- User Options In Main Navigation -->
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-                <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+            <div class="col-12 col-lg-12 my-auto py-1 py-lg-0 d-flex flex-row-reverse">
+                <ul class="list-inline list-unstyled my-0 ml-auto">
+                    {% if request.user.is_superuser %}
                     <li class="list-inline-item dropdown">
                         <a class="nav-link" href="#" id="user-options" data-bs-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
@@ -80,6 +68,7 @@
                                 <p class="my-3">My Account</p>
                             </div>
                         </a>
+                        {% endif %}
                         <div id="account-dropdown" class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
@@ -93,6 +82,7 @@
                             {% endif %}
                         </div>
                     </li>
+                    {% if request.user.is_superuser %}
                     <li class="list-inline-item">
                         <a class="" href="{% url 'view_library' %}">
                             <div class="text-center">
@@ -101,6 +91,7 @@
                             </div>
                         </a>
                     </li>
+                    {% endif %}
                 </ul>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0"></div>

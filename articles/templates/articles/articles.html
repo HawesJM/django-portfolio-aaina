@@ -7,6 +7,23 @@
         <div class="col"></div>
     </div>
 </div>
+<div class="col-12 col-lg-4 mx-auto my-auto py-1 py-lg-0">
+    <form method="GET" action="{% url 'articles' %}">
+        <div class="input-group w-100">
+            <label for="search-bar" class="sr-only">Search</label>
+            <input class="form-control border border-white rounded-0" type="text" name="q" id="search-bar"
+                placeholder="search all our articles">
+            <div class="input-group-append">
+                <button class="form-control btn btn-white border border-white rounded-0" type="submit">
+                    <p class="sr-only">Search</p>
+                    <span class="icon nav-bar-one">
+                        <i class="fas fa-search"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
 {% endblock %}
 
 {% block content %}
@@ -61,16 +78,10 @@
                         <div class="card-footer bg-white pt-0 border-0 text-left">
                             <div class="row">
                                 <div class="col">
-                                    <p class="lead mb-0 text-left font-weight-bold">{{ article.publication.friendly_name }}</p>
-                                    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ article.published_date }}</small>
-                                    {% if article.category %}
-                                    <p class="small mt-1 mb-0">
-                                        <a class="text-muted" href="{% url 'articles' %}?category={{ article.category }}">
-                                            <i class="fas fa-tag mr-1"></i>{{ article.category.friendly_name }}
-                                        </a>
-                                    </p>
-                                    {% endif %}
-                                    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ article.keywords }}</small>
+                                    <p id="card-publication" class="lead mb-0 text-left font-weight-bold"><strong>{{ article.publication.friendly_name }}</strong></p>
+                                    <small class="text-muted">Published {{ article.published_date }}</small>
+                                    <br>
+                                    <small class="text-muted"><i class="fas fa-circle-info mr-1"></i> {{ article.keywords }}</small>
                                     {% if request.user.is_superuser %}
                                     <br>
                                         <small class="ml-3">

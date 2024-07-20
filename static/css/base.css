@@ -2,8 +2,16 @@
 body {
   min-height: 100vh;
   padding: 0;
-  font-family: Poppins, sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 150px;
+}
+
+h1 {
+  font-family: "Noticia Text", sans-serif
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
 }
 
 #banner-container {
@@ -20,14 +28,21 @@ body {
 
 #navbar-brand {
   color: #112A46;
+  font-family: "Noticia Text", sans-serif;
+  font-size: 26px;
 }
 
 a {
   text-decoration: none;
 }
 
+#title-header {
+  padding-top: 20px;
+}
+
 #navbar-brand>a {
   color: #112A46;
+  font-family: "Noticia Text", sans-serif
 }
 
 #toggler-icon{
@@ -36,6 +51,7 @@ a {
 }
 
 .nav-bar-one {
+  font-family: "Noticia Text", sans-serif;
   text-align: center;
   background-color: #FFFBF6;
   color: #112A46;
@@ -67,6 +83,7 @@ a {
   --bs-navbar-brand-color: #fafafa;
   --bs-navbar-active-color: #fafafa;
   text-transform: uppercase;
+  font-family: "Noticia Text", sans-serif;
 }
 
 .header-container {
@@ -131,6 +148,11 @@ a {
   text-align: center;
 }
 
+#card-publication {
+  font-family: "Noticia Text";
+}
+
+
 #footer {
   height: 100px;
   position: fixed;
@@ -140,6 +162,7 @@ a {
   background-color: #FFFBF6;
   color: #112A46;
   text-align: center;
+  font-family: "Noticia Text", sans-serif;
 }
 
 #footer-two {
