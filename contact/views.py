@@ -16,7 +16,8 @@ class ContactView(FormView):
     template_name = "contact.html"
 
     def get_success_url(self):
-        return reverse("contact")
+        return reverse("success")
+        messages.success(request, f'email sent successfully')
 
     def form_valid(self, form):
         email = form.cleaned_data.get("email")
@@ -37,4 +38,4 @@ class ContactView(FormView):
             recipient_list=[settings.NOTIFY_EMAIL],
         )
         return super(ContactView, self).form_valid(form)
-        return HttpResponse('Success!')
+        
