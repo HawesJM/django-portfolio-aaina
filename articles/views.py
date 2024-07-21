@@ -6,6 +6,7 @@ from .models import Article, Category, Publication
 from .forms import ArticleForm
 from django.views.generic import ListView
 from django.core.paginator import Paginator
+from django.db.models.functions import Lower
 
 
 def all_articles(request):
@@ -21,11 +22,15 @@ def all_articles(request):
         if 'sort' in request.GET:
             sortkey = request.GET['sort']
             sort = sortkey
+            if sortkey=='name':
+                sortkey = 'lower_name'
+                articles = articles.annotate(lower_name=Lower('name'))
 
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
+            articles = articles.order_by(sortkey)
 
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
