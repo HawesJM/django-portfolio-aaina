@@ -201,6 +201,11 @@ a {
   --bs-btn-hover-color: #112A46;
 }
 
+#article-searchbar {
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
 #card-container {
   margin-top: 75px;
   margin-left: 20px;
