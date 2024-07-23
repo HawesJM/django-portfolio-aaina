@@ -15,3 +15,12 @@ def all_talks(request):
     }
 
     return render(request, "talks/talks.html", context)
+
+    page = request.GET.get('page', 1)
+    paginator = Paginator(talks, 20)
+    try:
+        talks = paginator.page(page)
+    except PageNotAnInteger:
+        talks = paginator.page(1)
+    except EmptyPage:
+        talks = paginator.page(paginator.num_pages)

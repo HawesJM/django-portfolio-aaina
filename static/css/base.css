@@ -212,6 +212,11 @@ a {
   margin-right: 20px;
 }
 
+#talks-card-container{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .card {
   border: none;
   text-align: center;

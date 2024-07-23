@@ -34,8 +34,8 @@
                         <div class="card-footer bg-white pt-0 border-0 text-left">
                             <div class="row">
                                 <div class="col">
-                                    <p class="lead mb-0 text-left font-weight-bold">{{ article.publication.friendly_name }}</p>
-                                    <small class="text-muted">{{ article.published_date }}</small>
+                                    <p class="lead mb-0 text-left font-weight-bold">{{ talks.publication.friendly_name }}</p>
+                                    <small class="text-muted">{{ talks.recorded_date }}</small>
                                     {% if article.category %}
                                     <p class="small mt-1 mb-0">
                                         <a class="text-muted" href="{% url 'articles' %}?category={{ article.category }}">
@@ -61,7 +61,7 @@
                 <div class="row mt-1 mb-2"></div>
                 {% for talk in talks %}
                 {% if talk.image %}
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                <div id="talks-card-container" class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card h-100 border-0 shadow-lg">
                         <div class="card-body pb-0">
                             <a target="_blank" href="{{ talk.url }}">
@@ -94,29 +94,32 @@
                         </div>
                     </div>      
             </div>
+            
             {% endif %}
             {% endfor %}
 
-
 <div class="pagination mx-auto">
     <span class="step-links">
-        {% if articles.has_previous %}
-            <a href="?page=1">&laquo; first</a>
+        {% if talks.has_previous %}
+            <a href="?page=1&{{ talks.paginator.num_pages }}{% for key, value in request.GET.items %}{% if key != 'page' %}&{{ key }}={{ value|urlencode }}{% endif %}{% endfor %}">&laquo; first</a>
             <br>
-            <a href="?page={{ articles.previous_page_number }}">previous</a>
+            <a href="?page={{ talks.previous_page_number }}{% for key, value in request.GET.items %}{% if key != 'page' %}&{{ key }}={{ value|urlencode }}{% endif %}{% endfor %}">previous</a>
         {% endif %}
 
+        {% if talks.has_previous or talks.has_next %}
         <span class="current">
-            <strong>Page {{ articles.number }} of {{ articles.paginator.num_pages }}.</strong>
+            <strong>Page {{ talks.number }} of {{ talks.paginator.num_pages }}.</strong>
         </span>
+        {% endif %}
 
         {% if articles.has_next %}
-            <a href="?page={{ articles.next_page_number }}">next</a>
+            <a href="?page={{ talks.next_page_number }}{% for key, value in request.GET.items %}{% if key != 'page' %}&{{ key }}={{ value|urlencode }}{% endif %}{% endfor %}">next</a>
             <br>
-            <a href="?page={{ articles.paginator.num_pages }}">last &raquo;</a>
+            <a href="?page={{ talks.paginator.num_pages }}{% for key, value in request.GET.items %}{% if key != 'page' %}&{{ key }}={{ value|urlencode }}{% endif %}{% endfor %}">last &raquo;</a>
         {% endif %}
     </span>
 </div>
+
 
 <div class="btt-button shadow-sm rounded-0 border border-black">
     <a class="btt-link d-flex h-100">
