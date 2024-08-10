@@ -1636,7 +1636,218 @@
             "published_date": "2021-01-28",
             "publication": 8
         }
+    },
+    {
+        "pk": 116,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Refik Anadol on using AI to create a Dior perfume and how digital artists still face bias",
+            "keywords": "AI | Sci-Fi | Film ",
+            "image_url": "",
+            "image": "refik-anadol-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/refik-anadol-interview",
+            "published_date": "2024-06-16",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 117,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "5 pioneering Asian queer artists who defied societal norms by depicting LGBTQ+ themes in their art",
+            "keywords": "Gender | Sexuality | Mythology ",
+            "image_url": "",
+            "image": "patrick-ng-kah-onn-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/asian-queer-artists-pioneers",
+            "published_date": "2024-06-17",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 118,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Hong Kong gets two new art fairs, Art021 and Photofairs, adding to the city’s packed arts calendar",
+            "keywords": "Exhibitions | Photography | Events ",
+            "image_url": "",
+            "image": "art021-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/hong-kong-art-fairs-art-021-photofairs",
+            "published_date": "2024-06-26",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 119,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Karpe and Quick Style bring their distinct hybrid Norwegian flair to Coke Studio",
+            "keywords": "Music | Dance | Languages ",
+            "image_url": "",
+            "image": "karpe-finals-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/karpe-and-quick-style-coke-studio-season-15",
+            "published_date": "2024-06-29",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 119,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Top creative leaders in the design industry come together in Hong Kong for Knowledge of Design Week",
+            "keywords": "Communication | Technology | Luxury ",
+            "image_url": "",
+            "image": "kodw-24-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/kodw-hong-kong-2024",
+            "published_date": "2024-07-04",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 120,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "What to do, see and eat in Tokyo according to Kyoko Hattori, vice president of Pace Gallery",
+            "keywords": "Travel | Tourism | Exhibitions ",
+            "image_url": "",
+            "image": "pace-tokyo-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/pace-gallery-guide-to-tokyo",
+            "published_date": "2024-07-04",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 121,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Piece of Work: How is Nam June Paik's “TV Garden” Art?",
+            "keywords": "Nature | Video | Television ",
+            "image_url": "",
+            "image": "nam-june-paik-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/piece-of-work-how-is-nam-june-paiks-tv-garden-art",
+            "published_date": "2024-07-05",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 122,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Meet the British Indian actor reframing the mixed-heritage perspective as ‘both, not half",
+            "keywords": "Ethnicity | Identity | Languages ",
+            "image_url": "",
+            "image": "jassa-ahluwalia-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/jassa-ahluwalia-both-not-half",
+            "published_date": "2024-07-08",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 123,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "3 lesser-known buildings designed by star architect IM Pei",
+            "keywords": "Architecture | Exhibitions | Museums ",
+            "image_url": "",
+            "image": "im-pei-staircase-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/im-pei-buildings-fragrant-hill-ocbc-everson-museum",
+            "published_date": "2024-07-10",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 124,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "Turner Prize nominee Pio Abad on forging historical connections, carrying on family legacy and why jewellery is powerful",
+            "keywords": "History | Perception | Auctions ",
+            "image_url": "",
+            "image": "pio-abad-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/turner-prize-pio-abad-interview",
+            "published_date": "2024-07-13",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 125,
+        "model": "articles.article",
+        "fields": {
+            "category": 2,
+            "name": "7 exhibitions and art spaces to see in Paris during the Olympics",
+            "keywords": "Sport | Travel | Tourism ",
+            "image_url": "",
+            "image": "montmarte-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/art-exhibitions-paris-happening-now",
+            "published_date": "2024-08-02",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 126,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Piece of Work: How is Cai Guo-Qiang’s ‘Sky Ladder’ art?",
+            "keywords": "Science | Family | History ",
+            "image_url": "",
+            "image": "sky-ladder-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/cai-guo-qiang-sky-ladder-explosion-gunpowder-art",
+            "published_date": "2024-07-23",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 127,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Cai Guo-Qiang on his ‘explosion event’ with PST Art at LA Coliseum and using AI to explore human fate",
+            "keywords": "Exhibitions | Technology | Mythology ",
+            "image_url": "",
+            "image": "footprints-of-history-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/cai-guo-qiang-pst-art-collaboration",
+            "published_date": "2024-07-30",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 128,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "5 exhibitions featuring Hong Kong artists to check out in August 2024",
+            "keywords": "Exhibitions | Museums | Galleries ",
+            "image_url": "",
+            "image": "chan-ting-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/hong-kong-exhibitions-happening-now",
+            "published_date": "2024-07-31",
+            "publication": 1
+        }
+    },
+    {
+        "pk": 129,
+        "model": "articles.article",
+        "fields": {
+            "category": 1,
+            "name": "Artist Shuang Li on being My Chemical Romance’s biggest fan and creating art out of fandom",
+            "keywords": "Music | Language | Fandom ",
+            "image_url": "",
+            "image": "shuang-li-cover.png",
+            "url": "https://www.tatlerasia.com/lifestyle/arts/artist-shuang-li-interview",
+            "published_date": "2024-08-02",
+            "publication": 1
+        }
     }
+    
     
 
     
