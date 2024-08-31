@@ -18,6 +18,7 @@ h2 {
   height: 100%;
   width: 100%;
   text-align: center;
+  position: relative;
 }
 
 #home-banner {
@@ -122,16 +123,12 @@ a {
 
 #details-container {
   position: right;
-  vertical-align: middle;
-  padding-top: 25px;
-  margin-top: 50px;
   padding-left: 0;
 }
 
 #details-paragraph {
   display: grid;
-  text-align: left;
-  vertical-align: middle;
+  text-align: justify;
   margin-right: 50px;
   margin-bottom: 2rem;
 }
@@ -141,11 +138,17 @@ a {
 }
 
 #main-banner {
+  margin: 0;
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
 #profile-image {
-  text-align: center;
+  text-align: justify;
 }
 
 #card-publication {
@@ -182,6 +185,19 @@ a {
 .footer-right {
   text-align: right;
   padding-right: 50px;
+}
+
+#publications-bar {
+  margin-right: 50px;
+}
+
+.publications-logo {
+  max-width: 150px;
+  max-height: 100px;
+  padding-right: 10px;
+  padding-top: 10px;
+  width: auto;
+  height: auto;
 }
 
 .text-white {

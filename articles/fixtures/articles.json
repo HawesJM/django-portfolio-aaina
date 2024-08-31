@@ -1,1854 +1,1962 @@
 [
     {
-        "pk": 1,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "For their Venice Biennale exhibition, Indian artists Madhvi and Manu Parekh are transforming paintings and sculptures into textile tapestries",
-            "keywords": "Sculpture | Painting | Fashion",
-            "image_url": "",
-            "image": "parekh-cover-image.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/venice-biennale-indian-art-chanakya",
-            "published_date": "2024-05-25",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 2,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Father of Hong Kong design Henry Steiner on how his legacy and that of the city are inextricably linked",
-            "keywords": "Design | Exhibitions | Museums",
-            "image_url": "",
-            "image": "henry-steiner-profile.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/henry-steiner-may-cover",
-            "published_date": "2024-05-02",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 3,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Meet these Mongolian artists keeping folklore alive and redefining their country’s cultural identity through art",
-            "keywords": "Sculpture | Mythology | History",
-            "image_url": "",
-            "image": "jantsankhorol-erdenebayar-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/mongolian-artist-art-basel",
-            "published_date": "2024-03-23",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 4,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Artist Marilyn Minter on why the art world loves old ladies, dead ladies and young bad boys",
-            "keywords": "Beauty | Gender | Sexuality",
-            "image_url": "",
-            "image": "marilyn-minter-portrait.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/marilyn-minter-artist-interview",
-            "published_date": "2024-03-05",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 5,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Wolfgang Tillmans on his upcoming Hong Kong exhibition, and creating a timeless body of work that captures the cultural pulse",
-            "keywords": "Photography | Politics | Music",
-            "image_url": "",
-            "image": "wolfgang-tillmans-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/wolfgang-tillmans-artist-interview",
-            "published_date": "2024-03-17",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 6,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Takashi Murakami on what might be his ‘final exhibition in Japan’, not playing it safe and why Japanese people don’t really get his work",
-            "keywords": "History | Folklore | Luxury",
-            "image_url": "",
-            "image": "murakami-profile.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/takashi-murakami-march-cover",
-            "published_date": "2024-03-01",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 7,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Vietnamese artist Thao Nguyen Phan is reviving the legacies of forgotten female artists and exploring her homeland’s heritage",
-            "keywords": "History | Colonialism | Film",
-            "image_url": "",
-            "image": "thao-nguyen-phan-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/thao-nguyen-phan-interview",
-            "published_date": "2024-01-01",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 8,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Emma Raducanu, former US Open Champion, on connecting with her Chinese heritage, being kind to herself, and why constantly pushing doesn’t work",
-            "keywords": "Sport | Fashion | Identity",
-            "image_url": "",
-            "image": "emma-raducanu-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/sports/emma-raducanu-january-cover",
-            "published_date": "2023-12-29",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 9,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Neo Rauch on being a ‘painter’s painter’, his wife’s influence on his work—and his upcoming exhibition at David Zwirner Hong Kong",
-            "keywords": "Painting | Cooking | Comics",
-            "image_url": "",
-            "image": "neo-rauch-profile.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/neo-rauch-david-zwirner-hong-kong-exhibition",
-            "published_date": "2023-11-29",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 10,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Inside Manchester’s Aviva Studios, which pays homage to the city’s industrial history and ’80s music scene",
-            "keywords": "Architecture | Industry | Theatre",
-            "image_url": "",
-            "image": "aviva-studios-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/aviva-studios-factory-international-manchester",
-            "published_date": "2023-12-15",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 11,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "What’s the link between art and video games? Breaking down the unexpected connection you can’t unsee once you know about it",
-            "keywords": "Technology | Gaming | Digital",
-            "image_url": "",
-            "image": "build-mode-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/video-games-and-art",
-            "published_date": "2023-10-21",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 12,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Meet the social media influencers who are preserving India’s history and culture by evoking nostalgia",
-            "keywords": "Tourism | History | Architecture",
-            "image_url": "",
-            "image": "monumental-nostalgia-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/india-cultural-heritage-documenting-preserving",
-            "published_date": "2023-10-10",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 13,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Swedish Chinese artist Lap-see Lam, whose work will be displayed at Venice Biennale 2024, on drawing from Cantonese mythology, personal loss and more",
-            "keywords": "Film | Animation | Loss",
-            "image_url": "",
-            "image": "lap-see-lam-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/venice-biennale-2024-lap-see-lam-international-chinese-artist",
-            "published_date": "2023-10-07",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 14,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Beyond Frieze Seoul, here are the exhibitions you don’t want to miss while in the capital of South Korea",
-            "keywords": "Museums | Exhibitions | Parties",
-            "image_url": "",
-            "image": "frieze-seoul-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/frieze-seoul-art-exhibitions",
-            "published_date": "2023-09-03",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 15,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Meet Karpe, the Norwegian duo who cracked the code on fusion music, sing about being immigrant kids and inspired viral dance crew Quick Style",
-            "keywords": "Music | Dance | Ethnicity",
-            "image_url": "",
-            "image": "karpe-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/karpe-norwegian-rap-for-tatler",
-            "published_date": "2023-08-01",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 16,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Puerto Rican artist Angel Otero on fusing abstraction and surrealism, his upcoming Hong Kong exhibition",
-            "keywords": "Memory | Abstraction | Fantasy",
-            "image_url": "",
-            "image": "angel-otero-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/angel-otero-brings-abstract-paintings-to-asia",
-            "published_date": "2023-05-31",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 17,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Rahul Mishra on his duty to create employment and ‘worshipping at the temple of couture’",
-            "keywords": "Beauty | Fashion | Celebrities",
-            "image_url": "",
-            "image": "rahul-mishra-cover.png",
-            "url": "https://www.tatlerasia.com/style/fashion/rahul-mishra-designer-responsibility",
-            "published_date": "2023-07-02",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 18,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Meet Sin Wai Kin: the first individual non-binary artist nominated for the prestigious Turner Prize",
-            "keywords": "Gender | Performance | Music",
-            "image_url": "",
-            "image": "sin-wai-kin-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/turner-prize-nominee-sin-wai-kin",
-            "published_date": "2023-06-09",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 19,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "The first Central Asian textile art exhibition in the Greater China region wows Hong Kong",
-            "keywords": "Religion | Crafts | History",
-            "image_url": "",
-            "image": "patterns-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/central-asia-art-exhibtion",
-            "published_date": "2023-04-30",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 20,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Meet the Hong Kong artist turned part-time farmer",
-            "keywords": "Nature | Environment | Agriculture",
-            "image_url": "",
-            "image": "slowdown-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/the-slow-down",
-            "published_date": "2023-04-11",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 21,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "From Japanese manga to African mythology, Tunji Adeniyi-Jones shares his inspirations ahead of his first solo exhibition in Asia",
-            "keywords": "Race | Mythology | Comics",
-            "image_url": "",
-            "image": "adeniyi-jones-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/tunji-adeniyi-jones-first-exhibition-hong-kong",
-            "published_date": "2023-03-17",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 22,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Beyond Art Basel: 5 local artists representing Hong Kong in exhibitions around the world in 2023",
-            "keywords": "Emigration | Pandemic | Protests",
-            "image_url": "",
-            "image": "going-global-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/hong-kong-artists-international-solo-exhibitions",
-            "published_date": "2023-02-23",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 23,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "From Kimsooja to Shubigi Rao: Here are 7 female artists in Hong Kong to look out for this art month",
-            "keywords": "Education | Literature | Perception",
-            "image_url": "",
-            "image": "female-gaze-cover.png",
-            "url": "https://www.tatlerasia.com/power-purpose/front-female/female-artists-art-month-2023",
-            "published_date": "2023-03-03",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 24,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Hong Kong’s first major LGBTQ+ art exhibition opens at Tai Kwun",
-            "keywords": "Sexuality | Gender | Mythology",
-            "image_url": "",
-            "image": "queer-world-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/myth-makers-at-sunpride-taikwun",
-            "published_date": "2023-02-16",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 25,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Rashid Johnson’s first solo exhibition in Asia is a must-see for Hong Kong art lovers",
-            "keywords": "Anxiety | Communication | Race",
-            "image_url": "",
-            "image": "rashid-johnson-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/art-basel-rashid-johnson",
-            "published_date": "2023-03-03",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 26,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Artist Korakrit Arunanondchai on community, duality in his art, and why he sets his work on fire—literally",
-            "keywords": "Society | Mythology | Politics",
-            "image_url": "",
-            "image": "korakrit-arunanondchai-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/thai-artist-korakrit-arunanondchai",
-            "published_date": "2023-01-16",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 27,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Feminism, diaspora and the afterlife: Artist Zadie Xa explores identity in her Korean folklore-inspired installations",
-            "keywords": "Death | Ritual | Identity",
-            "image_url": "",
-            "image": "zadie-xa-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/korean-canadian-artist-zadie-xa",
-            "published_date": "2023-01-29",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 28,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Meet Quick Style, the dance crew that choreographed for BTS and inspired a viral TikTok challenge",
-            "keywords": "Music | Social Media | Creativity",
-            "image_url": "",
-            "image": "quick-style-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/quick-style-dance-crew",
-            "published_date": "2023-01-02",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 29,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Edouard Malingue and Lorraine Kiang open much awaited new gallery space that reflects their Hong Kong roots",
-            "keywords": "Exhibitions | Architecture | Business",
-            "image_url": "",
-            "image": "edouard-malingue-lorraine-kiang-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/edouard-malingue-and-lorraine-kiang-open-their-much-awaited-new-gallery-space",
-            "published_date": "2023-01-09",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 30,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "You’ve Heard of Yayoi Kusama—Here’s Why You Should Care",
-            "keywords": "Exhibitions | Curation | Self",
-            "image_url": "",
-            "image": "kusama-viewing-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/yayoi-kusama-at-m-plus-2022",
-            "published_date": "2022-11-04",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 31,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Witches, Magic, and Tarot Make a Cultural Comeback",
-            "keywords": "Fantasy | Mysticism | Astrology",
-            "image_url": "",
-            "image": "spellbound-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/witches-magic-and-mysticism-are-making-a-comeback",
-            "published_date": "2022-10-31",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 32,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "How Seoul Is Becoming a Top Art Destination",
-            "keywords": "Exhibitions | Travel | Digital",
-            "image_url": "",
-            "image": "frieze-seoul-22-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/frieze-art-fair-opens-its-inaugural-edition-in-seoul-opens-this-week",
-            "published_date": "2022-08-29",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 33,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Jewellery Designer Wallace Chan Creates a Temple in Venice",
-            "keywords": "Sculpture | Religion | Nature",
-            "image_url": "",
-            "image": "wallace-chan-totem.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/jewellery-designer-wallace-chans-creates-a-temple-in-venice",
-            "published_date": "2022-08-29",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 34,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Who Is Pipilotti Rist, the Artist Who Inspired an Iconic Scene in Beyonce’s ‘Hold Up’?",
-            "keywords": "Illusion | Nudity | Gender",
-            "image_url": "",
-            "image": "pipilotti-rist-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/pipilotti-rist-at-tai-kwun",
-            "published_date": "2022-07-28",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 35,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Meet Zain, the Pakistani-Arab Canto Rapper from Hong Kong",
-            "keywords": "Music | Society | Social Media",
-            "image_url": "",
-            "image": "zain-syed-cover.png",
-            "url": "https://www.tatlerasia.com/power-purpose/ideas-education/meet-zain-canto-rapper-hong-kong",
-            "published_date": "2022-08-19",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 36,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Axel Vervoordt on Art, Spirituality and the Wabi-Sabi Philosophy",
-            "keywords": "Interior Design | Imperfection | Antiquities",
-            "image_url": "",
-            "image": "axel-vervoordt-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/living-wabi-savvy-with-axel-vervoordt",
-            "published_date": "2022-07-21",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 37,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Meet the First Asian Collective to Curate This Major Contemporary Art Show",
-            "keywords": "Friendship| Documenta | Community",
-            "image_url": "",
-            "image": "ruangrupa-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/ruang-rupa-documenta-fifteen",
-            "published_date": "2022-06-22",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 38,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Meet Brendan Dawes, NFT Collector WhaleShark’s Favourite Digital Artist",
-            "keywords": "Digital| NFTs | Community",
-            "image_url": "",
-            "image": "dawes-minutes-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/brendan-dawes-nft-artist",
-            "published_date": "2022-06-16",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 39,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Meet the Artist Turning Old Aeroplanes into Classrooms",
-            "keywords": "Education| History | Community",
-            "image_url": "",
-            "image": "ibrahim-mahama-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/ibrahim-mahama-half-a-yellow-sun",
-            "published_date": "2022-04-22",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 40,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Levitating at Venice Biennale? How Hong Kong Artist Angela Su Plans to Rise Above the Rest",
-            "keywords": "Anime| Film | Society",
-            "image_url": "",
-            "image": "angela-su-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/angela-su-vennice-biennale",
-            "published_date": "2022-04-22",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 41,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Who Is Pak? We Interview the Mysterious NFT Creator",
-            "keywords": "NFTs| Blockchain | Technology",
-            "image_url": "",
-            "image": "pak-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/who-is-pak",
-            "published_date": "2022-03-10",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 42,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Ami Lien & Enzo Camacho’s Monument to Escalante",
-            "keywords": "Film| History | Exhibitions",
-            "image_url": "",
-            "image": "ami-lien-cover.png",
-            "url": "https://artreview.com/amy-lien-enzo-camacho-offerings-for-escalante-para-site-hong-kong-review/",
-            "published_date": "2022-03-26",
-            "publication": 2
-        }
-    },
-    {
-        "pk": 43,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Can Hong Kong’s Newest Museum Live Up To The Hype?",
-            "keywords": "Museums| Exhibitions | Architecture",
-            "image_url": "",
-            "image": "m-plus-cover.png",
-            "url": "https://artreview.com/can-hong-kong-newest-museum-live-up-to-the-hype-m-plus/",
-            "published_date": "2021-12-10",
-            "publication": 2
-        }
-    },
-    {
-        "pk": 44,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Staying Afloat When Hong Kong Is Sinking",
-            "keywords": "Environment| Exhibitions | Politics",
-            "image_url": "",
-            "image": "liquid-ground-cover.png",
-            "url": "https://artreview.com/staying-afloat-when-hong-kong-is-sinking/",
-            "published_date": "2021-11-12",
-            "publication": 2
-        }
-    },
-    {
-        "pk": 45,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Need For Speed: Drone Races and Humans’ Obsession with Acceleration",
-            "keywords": "Technology| Architecture | Digital",
-            "image_url": "",
-            "image": "need-for-speed-cover.png",
-            "url": "https://artreview.com/need-for-speed-drone-races-and-humans-obsession-with-acceleration/",
-            "published_date": "2021-05-06",
-            "publication": 2
-        }
-    },
-    {
-        "pk": 46,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Lee Kit and Kingsley Ng Warp Time and Space in Hong Kong",
-            "keywords": "Time| Modernity | Literature",
-            "image_url": "",
-            "image": "oi-art-space.png",
-            "url": "https://artreview.com/lee-kit-and-kingsley-ng-warp-time-and-space-in-hong-kong-oi-art-space/",
-            "published_date": "2021-03-02",
-            "publication": 2
-        }
-    },
-    {
-        "pk": 47,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Portals, Stories, and Other Journeys",
-            "keywords": "Exhibitions| Archives | Photography",
-            "image_url": "",
-            "image": "portals-journeys-cover.png",
-            "url": "https://www.e-flux.com/criticism/407148/portals-stories-and-other-journeys",
-            "published_date": "2021-07-06",
-            "publication": 3
-        }
-    },
-    {
-        "pk": 48,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "How galleries overcame the challenges of the pandemic era",
-            "keywords": "Exhibitions| Archives | Photography",
-            "image_url": "",
-            "image": "pandemic-challenges-cover.png",
-            "url": "https://www.artbasel.com/stories/galleries-navigating-the-pandemic-hong-kong-2022",
-            "published_date": "2021-05-03",
-            "publication": 4
-        }
-    },
-    {
-        "pk": 49,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Tarot, astrology, feng shui – why is Hong Kong’s art world going dotty over divination?",
-            "keywords": "Self | Home | Videogames",
-            "image_url": "",
-            "image": "feng-shui-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3157982/tarot-astrology-feng-shui-why-hong-kongs-art-world-going",
-            "published_date": "2021-12-01",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 50,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Recent Hong Kong history, from Sars epidemic to ‘umbrella movement’ to ‘fear of now’, inspires city artists’ work, on show in two exhibitions",
-            "keywords": "Politics| Exhibitions | Society",
-            "image_url": "",
-            "image": "jaffa-lam-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3142548/recent-hong-kong-history-sars-epidemic-umbrella-movement",
-            "published_date": "2021-07-27",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 51,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Architect David Adjaye’s marble sculptures paired with Adam Pendleton’s text-based paintings for Hong Kong show",
-            "keywords": "Architecture| History | Identity",
-            "image_url": "",
-            "image": "david-adjaye-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3133361/architect-david-adjayes-marble-sculptures-paired-adam",
-            "published_date": "2021-05-14",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 52,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "The promise of a new life in America for Chinese children explored in short film Magic Kingdom",
-            "keywords": "Immigration| History | Identity",
-            "image_url": "",
-            "image": "magic-kingdom-cover.png",
-            "url": "https://www.scmp.com/lifestyle/entertainment/article/3129307/promise-new-life-america-chinese-children-explored-short",
-            "published_date": "2021-04-13",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 53,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Candice Lin, Chinese-American artist, on her first solo show in China and its focus on the migrant experience",
-            "keywords": "Immigration| History | Identity",
-            "image_url": "",
-            "image": "candice-lin-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3128205/candice-lin-chinese-american-artist-her-first-solo-show",
-            "published_date": "2021-04-03",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 54,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Independent art finds room to flourish in Hong Kong as young artists and creatives grab retail spaces left empty by the pandemic",
-            "keywords": "Commercial| Exhibitions | Independent ",
-            "image_url": "",
-            "image": "eunice-tsang-cover.png",
-            "url": "https://www.scmp.com/culture/article/3122236/independent-art-finds-room-flourish-hong-kong-young-artists-and-creatives",
-            "published_date": "2021-02-20",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 55,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "How rich millennials are shaking up China’s art market",
-            "keywords": "Museums| Galleries | Youth ",
-            "image_url": "",
-            "image": "michael-huang-cover.png",
-            "url": "https://www.scmp.com/magazines/post-magazine/long-reads/article/3112430/rich-millennials-shaking-chinas-art-market",
-            "published_date": "2020-12-06",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 56,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "How racism and discrimination affect black people in China and Hong Kong",
-            "keywords": "Race| Immigration | Society ",
-            "image_url": "",
-            "image": "little-africa-cover.png",
-            "url": "https://www.scmp.com/lifestyle/article/3112105/how-racism-and-discrimination-affects-black-people-china-and-hong-kong",
-            "published_date": "2020-12-02",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 57,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Racism, feeling invisible: podcast on the black experience in Hong Kong, HomeGrown, acts as a guide for expats",
-            "keywords": "Race| Immigration | Society ",
-            "image_url": "",
-            "image": "home-grown-cover.png",
-            "url": "https://www.scmp.com/lifestyle/entertainment/article/3110345/racism-feeling-invisible-podcast-black-experience-hong-kong",
-            "published_date": "2020-11-19",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 58,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Belgian artist Luc Tuymans’ Hong Kong exhibition plays on ‘Made in China’, colonialism and global trade",
-            "keywords": "History| Perspective | Commerce ",
-            "image_url": "",
-            "image": "luc-tymans-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3107194/belgian-artist-luc-tuymans-hong-kong-exhibition-plays-made",
-            "published_date": "2020-10-27",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 59,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Why keep Hong Kong’s light show going with no tourists, artist asks as part of show exploring his personal and political fascination with lights",
-            "keywords": "Politics| Tourism | COVID ",
-            "image_url": "",
-            "image": "lights-symphony-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3100047/why-keep-hong-kongs-light-show-going-no-tourists-artist-asks",
-            "published_date": "2020-09-03",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 60,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "From Tesla cars to Brazilian waxes, being smooth is everything in today’s world – but why, artist wonders",
-            "keywords": "Identity| Aesthetics | Consumerism ",
-            "image_url": "",
-            "image": "jess-fan-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3099350/tesla-cars-brazilian-waxes-being-smooth-everything-todays",
-            "published_date": "2020-08-29",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 61,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Artist Christopher K. Ho reflects on identity, the meaning of home and the nature of the nation state",
-            "keywords": "Identity | Nationalism | Emigration ",
-            "image_url": "",
-            "image": "christopher-ho-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3098015/artist-christopher-k-ho-reflects-identity-meaning-home-and",
-            "published_date": "2020-08-20",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 62,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Hong Kong artist Wong Ping’s darkly humorous animated videos ‘talk about things which are kind of taboo but experienced by people in their daily life’",
-            "keywords": "Animation | Society | Exhibitions ",
-            "image_url": "",
-            "image": "wong-pinky-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3097028/hong-kong-artist-wong-pings-darkly-humorous-animated-videos",
-            "published_date": "2020-08-12",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 63,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Artists, celebrities and designers decorate skateboard decks for online exhibition and charity auction in Hong Kong’",
-            "keywords": "Healthcare | Society | Magazines ",
-            "image_url": "",
-            "image": "joseph-wong-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3096453/artists-celebrities-and-designers-decorate-skateboard-decks",
-            "published_date": "2020-08-09",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 64,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "How art sensation Matthew Wong learned his craft in Hong Kong – tutor recalls an eager student, gallerist his eye for detail",
-            "keywords": "Photography | Painting | Galleries ",
-            "image_url": "",
-            "image": "matthew-wong-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3094068/how-art-sensation-matthew-wong-learned-his-craft-hong-kong",
-            "published_date": "2020-07-22",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 65,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Congolese model takes on Hong Kong’s prejudiced fashion industry",
-            "keywords": "Modelling | Society | Beauty ",
-            "image_url": "",
-            "image": "ann-marie-cover.png",
-            "url": "https://www.scmp.com/lifestyle/fashion-beauty/article/3093549/congolese-model-takes-hong-kongs-prejudiced-fashion",
-            "published_date": "2020-07-20",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 66,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Hong Kong history marked absent from city’s international school education",
-            "keywords": "History | Education | Politics ",
-            "image_url": "",
-            "image": "hk-history-cover.png",
-            "url": "https://www.scmp.com/magazines/post-magazine/short-reads/article/3092471/hong-kong-history-marked-absent-citys",
-            "published_date": "2020-07-13",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 67,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Raw power of Basquiat on show in Hong Kong – he’s ‘so of the moment’, Lévy Gorvy gallery co-founder Brett Gorvy says",
-            "keywords": "Galleries | Exhibitions | Painting ",
-            "image_url": "",
-            "image": "jm-basquiat-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3091947/raw-power-basquiat-show-hong-kong-hes-so-moment-levy-gorvy",
-            "published_date": "2020-07-06",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 68,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Contemporary relics from sculptor Leelee Chan showcase her passion for making art from found objects",
-            "keywords": "Sculpture | Antiques | Artefacts ",
-            "image_url": "",
-            "image": "leelee-chan-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3090557/contemporary-relics-sculptor-leelee-chan-showcase-her",
-            "published_date": "2020-06-26",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 69,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Lorna Simpson: ‘Who knew coronavirus would bring about a political change?’ New York artist living in the moment",
-            "keywords": "Politics | Society | Race ",
-            "image_url": "",
-            "image": "lorna-simpson-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3089473/lorna-simpson-who-knew-coronavirus-would-bring-about",
-            "published_date": "2020-06-19",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 70,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Why the biggest barrier to overcoming racism is ‘white fragility’",
-            "keywords": "Politics | Society | Race ",
-            "image_url": "",
-            "image": "white-fragility-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3088443/why-biggest-barrier-overcoming-racism-white-fragility",
-            "published_date": "2020-06-10",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 71,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "An artist’s love of plants helps him cope with anxiety: in his art, butterfly palms and Venus flytraps stand in lieu of people and challenging relationships’",
-            "keywords": "Anxiety | Relationships | Nature ",
-            "image_url": "",
-            "image": "trevor-yeung-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3088033/artists-love-plants-helps-him-cope-anxiety-his-art-butterfly",
-            "published_date": "2020-06-09",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 72,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "What fabric can teach us about a society’s economy, geography, resources and gender roles",
-            "keywords": "Textiles | Industry | Lifestyle ",
-            "image_url": "",
-            "image": "david-medalla-cover.png",
-            "url": "https://www.scmp.com/magazines/post-magazine/arts-music/article/3087512/what-fabric-can-teach-us-about-societys-economy",
-            "published_date": "2020-06-07",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 73,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Film, music, photography, art – summer highlights of Le French May festival in Hong Kong",
-            "keywords": "Film | Festivals | Food ",
-            "image_url": "",
-            "image": "fifth-element-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3087481/film-music-photography-art-summer-highlights-le-french-may",
-            "published_date": "2020-06-04",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 74,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Emerging Chinese contemporary artists the focus of X Museum, new Beijing museum whose millennial founders want to change perceptions",
-            "keywords": "Museums | Exhibitions | Youth ",
-            "image_url": "",
-            "image": "contemporary-chinese-art-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3086680/emerging-chinese-contemporary-artists-focus-x-museum-new",
-            "published_date": "2020-05-30",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 75,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Four More Shots Please! shows modern urban Indian female lives, but is it country’s Sex and the City?",
-            "keywords": "Sex | TV | Gender ",
-            "image_url": "",
-            "image": "four-more-shots.png",
-            "url": "https://www.scmp.com/lifestyle/entertainment/article/3086144/four-more-shots-please-shows-modern-urban-indian-female",
-            "published_date": "2020-05-28",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 76,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Part art fair, part exhibition, new Hong Kong event set to reinvigorate city’s art scene",
-            "keywords": "Exhibitions | Galleries | Auctions ",
-            "image_url": "",
-            "image": "unscheduled-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3085576/part-art-fair-part-exhibition-new-hong-kong-event-set",
-            "published_date": "2020-05-25",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 77,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Feminist YouTuber Mak Ying-tung on challenging Damien Hirst, braving an open mic, and addressing serious issues in her signature ‘fun and crazy’ way",
-            "keywords": "Video | Comedy | Society ",
-            "image_url": "",
-            "image": "mak-ying-tung-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3085096/everything-i-do-fun-youtube-artist-whose-latest-work-film",
-            "published_date": "2020-05-20",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 78,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Contemporary artists reflect on Hong Kong’s recent history in Asia Society show",
-            "keywords": "Exhibitions | Politics | Society ",
-            "image_url": "",
-            "image": "falling-carefully.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3084386/contemporary-artists-reflect-hong-kongs-recent-history-asia",
-            "published_date": "2020-05-14",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 79,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Post-internet art: 5 Chinese artists taking aim at country’s digital world",
-            "keywords": "Data | Censorship | Internet ",
-            "image_url": "",
-            "image": "cyber-altar-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3083449/post-internet-art-5-chinese-artists-taking-aim-countrys",
-            "published_date": "2020-05-08",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 80,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "How online art galleries and viewing rooms are changing the industry",
-            "keywords": "E-commerce | Consumption | Internet ",
-            "image_url": "",
-            "image": "online-galleries-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3081839/how-online-art-galleries-and-viewing-rooms-are-changing",
-            "published_date": "2020-04-28",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 81,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Toys become an auction hit thanks to popularity of artists such as Kaws, Yoshitomo Nara and Takashi Murakami",
-            "keywords": "Sculpture | Figurines | Auctions ",
-            "image_url": "",
-            "image": "eric-so-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3081004/toys-become-auction-hit-thanks-popularity-artists-such-kaws",
-            "published_date": "2020-04-24",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 82,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "When a wall is more than just a wall – artists’ Hong Kong exhibition a study in contrasts and context",
-            "keywords": "History | Identity | Photography ",
-            "image_url": "",
-            "image": "two-artists-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3080335/society-flux-artists-reflect-communitys-sense-bonding",
-            "published_date": "2020-04-17",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 83,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "‘We’re in the post-apocalypse now’: artist creates a deformed world filled with expired Nokia phones and Game Boys",
-            "keywords": "Dystopia | Nature | Technology ",
-            "image_url": "",
-            "image": "creepy-pink-orbs.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3079159/were-post-apocalypse-now-artist-creates-deformed-world",
-            "published_date": "2020-04-10",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 84,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Coronavirus compared to Sars, ‘Yellow Peril’ and death of Leslie Cheung in exhibition on Hong Kong’s past traumas",
-            "keywords": "Pandemics | History | Politics ",
-            "image_url": "",
-            "image": "man-in-cage.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3078597/coronavirus-compared-sars-yellow-peril-and-death-leslie",
-            "published_date": "2020-04-06",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 84,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Architects’ award-winning redesign of University of Hong Kong medical school lobby throws away convention",
-            "keywords": "Design | Academia | Medicine ",
-            "image_url": "",
-            "image": "atelier-nuno-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3075750/architects-award-winning-redesign-university-hong-kong",
-            "published_date": "2020-03-20",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 85,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Can’t visit that art show? There’s an app for that – KAWS brings augmented reality sculptures to your smartphone",
-            "keywords": "Digital | Apps | Technology ",
-            "image_url": "",
-            "image": "kaws-ar.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3075496/cant-visit-art-show-theres-app-kaws-brings-augmented-reality",
-            "published_date": "2020-03-18",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 86,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Hong Kong protest art: ‘dystopia’ of street violence captured in paintings taut with emotion",
-            "keywords": "Politics | Society | Photography ",
-            "image_url": "",
-            "image": "chow-chun-fai.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3075028/hong-kong-protest-art-dystopia-street-violence-captured",
-            "published_date": "2020-03-14",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 87,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Art world fights coronavirus with digital shows in wake of mainland China and Hong Kong event cancellations",
-            "keywords": "Internet | Exhibitions | Pandemic ",
-            "image_url": "",
-            "image": "shanghai-power-station.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3051762/art-world-fights-coronavirus-digital-shows-wake-mainland",
-            "published_date": "2020-02-23",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 88,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Hong Kong artists elected as district councillors on city’s identity issues and boosting the local arts scene",
-            "keywords": "Politics | Identity | Expression ",
-            "image_url": "",
-            "image": "clara-cheung-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3049797/hong-kong-artists-elected-district-councillors-citys",
-            "published_date": "2020-02-14",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 89,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Dealers back Art Basel Hong Kong cancellation over coronavirus; Hong Kong galleries see chance for local art to shine",
-            "keywords": "Exhibitions | Localism | Pandemic ",
-            "image_url": "",
-            "image": "light-matter-collective.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3049566/dealers-back-art-basel-hong-kong-cancellation-over",
-            "published_date": "2020-02-07",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 90,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Art Basel: Hong Kong galleries back organiser amid calls to cancel fair over protests, coronavirus emergency",
-            "keywords": "Exhibitions | Galleries | Zao Wou-Ki ",
-            "image_url": "",
-            "image": "villepin-gallery-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3048393/hong-kong-art-gallery-former-french-prime-minister-dominique",
-            "published_date": "2020-02-01",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 91,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Art Basel: Hong Kong galleries back organiser amid calls to cancel fair over protests, coronavirus emergency",
-            "keywords": "Exhibitions | Galleries | Pandemic ",
-            "image_url": "",
-            "image": "art-basel-2020.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3048469/art-basel-hong-kong-galleries-back-organiser-amid-calls",
-            "published_date": "2020-02-01",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 92,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Failed attempts at creating utopias inspire Hong Kong artist’s exhibition ‘Swampland’ at Hanart TZ Gallery",
-            "keywords": "Horror | Dystopia | Pandemic ",
-            "image_url": "",
-            "image": "swampland-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3047769/failed-attempts-creating-utopias-inspire-hong-kong-artists",
-            "published_date": "2020-01-27",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 93,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "From sitar star to Gandhi’s granddaughter, Indian festival in Hong Kong a showcase of country’s culture",
-            "keywords": "Music | Theatre | Festivals ",
-            "image_url": "",
-            "image": "indian-festival-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3045378/sitar-star-gandhis-granddaughter-indian-festival-hong-kong",
-            "published_date": "2020-01-10",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 94,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Pink diamonds, rare already, about to get more scarce as the biggest mine producing them closes",
-            "keywords": "Jewellery | Luxury | Auctions ",
-            "image_url": "",
-            "image": "argyle-diamond-mine.png",
-            "url": "https://www.scmp.com/lifestyle/fashion-beauty/article/3043401/pink-diamonds-rare-already-about-get-more-scarce-biggest",
-            "published_date": "2019-12-26",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 95,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Exhibition of Banksy street art opens in Hong Kong, and his anti-police message should strike a chord",
-            "keywords": "Exhibitions | Street Art | Politics ",
-            "image_url": "",
-            "image": "banksy-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3043375/exhibition-banksy-street-art-opens-hong-kong-and-his-anti",
-            "published_date": "2019-12-19",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 96,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Through the ‘dragon gate’: artist explores feng shui as an emblem for personal agency",
-            "keywords": "Architecture | Feng Shui | Mythology ",
-            "image_url": "",
-            "image": "dragon-gate.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3043039/through-dragon-gate-artist-explores-feng-shui-emblem",
-            "published_date": "2019-12-21",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 97,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "From blow-up Banksy to that banana, the most memorable and sensational art events of the past 10 years",
-            "keywords": "Events | Commerce | Consumption ",
-            "image_url": "",
-            "image": "floating-piers.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3042814/blow-banksy-banana-most-memorable-and-sensational-art-events",
-            "published_date": "2019-12-19",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 98,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Hong Kong Museum of Art and Italy’s Uffizi Gallery to partner on exhibitions, plus seven works you can’t miss at reopened HKMoA",
-            "keywords": "Museums | Galleries | Architecture ",
-            "image_url": "",
-            "image": "tst-art-museum.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3040584/hong-kong-museum-art-and-italys-uffizi-gallery-partner",
-            "published_date": "2019-12-05",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 99,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "‘If you were a triad … If you were a police officer …’ – Hong Kong protests infuse art at Singapore Biennale",
-            "keywords": "Exhibitions | Politics | Law ",
-            "image_url": "",
-            "image": "am-i-a-ghost.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3040179/if-you-were-triad-if-you-were-police-officer-hong-kong",
-            "published_date": "2019-12-02",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 100,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Bangkok hosts biggest ever show of LGBT art from Southeast Asia",
-            "keywords": "Exhibitions | Sexuality | Music ",
-            "image_url": "",
-            "image": "spectrosynthesis.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3040021/bangkok-hosts-biggest-ever-show-lgbt-art-southeast-asia",
-            "published_date": "2019-12-02",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 101,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Art and culture in Hong Kong: why art galleries such as Axel Vervoordt are moving to Wong Chuk Hang from the usual tourist areas like Central",
-            "keywords": "Property | Transport | Music ",
-            "image_url": "",
-            "image": "wong-chuk-hang.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3038872/art-and-culture-hong-kong-why-art-galleries-such-axel",
-            "published_date": "2019-12-01",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 102,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "No shortage of suitors for Shanghai art museums as Western counterparts seek exposure in China – France’s Pompidou Centre is the latest",
-            "keywords": "Culture | Exchange | Collaboration ",
-            "image_url": "",
-            "image": "kandinsky-pompidou.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3036912/no-shortage-suitors-shanghai-art-museums-western",
-            "published_date": "2019-11-08",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 103,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Banksy exhibition coming to Hong Kong; first Asia showing to feature more than 70 pieces",
-            "keywords": "Exhibitions | Museums | Street Art ",
-            "image_url": "",
-            "image": "banksy-exhibition-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3034588/banksy-exhibition-coming-hong-kong-first-asia-showing",
-            "published_date": "2019-10-25",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 104,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Sculptor Carol Bove, whose ‘Ten Hours’ exhibition is coming to Hong Kong, on steel and ways of seeing",
-            "keywords": "Sculpture | Perception | Architecture ",
-            "image_url": "",
-            "image": "carol-bove-cover.png",
-            "url": "https://www.scmp.com/magazines/post-magazine/long-reads/article/3034332/conceptual-artist-carol-bove-whose-ten-hours",
-            "published_date": "2019-10-25",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 105,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Big Asian presence at London’s Frieze art fairs, where strong sales belied Brexit fears that have led galleries to open spaces in Paris",
-            "keywords": "Exhibitions | Textiles | Dance ",
-            "image_url": "",
-            "image": "london-frieze-2019.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3032866/big-asian-presence-londons-frieze-art-fairs-where-strong",
-            "published_date": "2019-10-14",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 106,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Korean contemporary art show at London’s Saatchi Gallery to give artists rare international exposure",
-            "keywords": "Exhibitions | Galleries | Contemporary ",
-            "image_url": "",
-            "image": "helena-parada-kim.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3032617/korean-contemporary-art-show-londons-saatchi-gallery-give",
-            "published_date": "2019-10-12",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 107,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Major show of Lucio Fontana’s work at Hauser & Wirth Hong Kong announced for 2021",
-            "keywords": "Exhibitions | Galleries | Dimensions ",
-            "image_url": "",
-            "image": "lucio-fontana-cover.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3030499/major-show-lucio-fontanas-work-hauser-wirth-hong-kong",
-            "published_date": "2019-09-26",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 108,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Made for the fake-news era, this photographer’s work was ahead of its time",
-            "keywords": "Photography | Truth | Reportage ",
-            "image_url": "",
-            "image": "philip-lorca-marilyn.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3029619/made-fake-news-era-photographers-work-was-ahead-its-time",
-            "published_date": "2019-09-20",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 109,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Artists’ reflections on destructive power of nature take on new meaning after Hong Kong’s summer of protest",
-            "keywords": "Politics | Society | Weather ",
-            "image_url": "",
-            "image": "weather-report.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3027156/artists-reflections-destructive-power-nature-take-new",
-            "published_date": "2019-09-15",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 110,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Major exhibitor scales back its debut at Hong Kong art fair amid protests, but is positive about city’s future",
-            "keywords": "Exhibitions | Galleries | Society ",
-            "image_url": "",
-            "image": "francois-xavier-lalanne.png",
-            "url": "https://www.scmp.com/lifestyle/arts-culture/article/3027093/major-exhibitor-scales-back-its-debut-hong-kong-art-fair",
-            "published_date": "2019-09-13",
-            "publication": 5
-        }
-    },
-    {
-        "pk": 110,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Once dubbed 'American Louvre' this museum celebrates creativity in politically charged Washington",
-            "keywords": "Politics | Architecture | Technology ",
-            "image_url": "",
-            "image": "no-spectators-renwick.png",
-            "url": "https://www.museeum.com/once-dubbed-american-louvre-this-museum-celebrates-creativity-in-politically-charged-washington/",
-            "published_date": "2019-09-24",
-            "publication": 6
-        }
-    },
-    {
-        "pk": 111,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Tai Kwun: big station, big architecture, big art, big aspirations",
-            "keywords": "Design | Architecture | History ",
-            "image_url": "",
-            "image": "tai-kwun-police-hq.png",
-            "url": "https://www.museeum.com/tai-kwun-big-station-big-architecture-big-art-big-aspirations/",
-            "published_date": "2019-08-23",
-            "publication": 6
-        }
-    },
-    {
-        "pk": 112,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "A Hong Kong oasis for a visual and cultural respite",
-            "keywords": "Nature | Architecture | Design ",
-            "image_url": "",
-            "image": "ask-cover.png",
-            "url": "https://www.museeum.com/a-hong-kong-oasis-for-a-visual-and-cultural-respite/",
-            "published_date": "2019-08-01",
-            "publication": 6
-        }
-    },
-    {
-        "pk": 113,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "A Hong Kong art library documenting a vital phenomenon",
-            "keywords": "Learning | Literature | Archives ",
-            "image_url": "",
-            "image": "hk-art-library.png",
-            "url": "https://www.museeum.com/a-hong-kong-art-library-documenting-a-vital-phenomenon/",
-            "published_date": "2019-08-01",
-            "publication": 6
-        }
-    },
-    {
-        "pk": 114,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "The 10 Best Booths at Art Basel in Hong Kong 2021",
-            "keywords": "Exhibitions | Galleries | Pandemic ",
-            "image_url": "",
-            "image": "pilar-corrias-basel.png",
-            "url": "https://www.artsy.net/article/artsy-editorial-10-best-booths-art-basel-hong-kong-2021",
-            "published_date": "2021-05-20",
-            "publication": 7
-        }
-    },
-    {
-        "pk": 115,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "State of the art",
-            "keywords": "Exhibitions | Galleries | Pandemic ",
-            "image_url": "",
-            "image": "old-ladies-home.png",
-            "url": "https://macaomagazine.net/state-of-the-art/",
-            "published_date": "2021-01-28",
-            "publication": 8
-        }
-    },
-    {
-        "pk": 116,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Refik Anadol on using AI to create a Dior perfume and how digital artists still face bias",
-            "keywords": "AI | Sci-Fi | Film ",
-            "image_url": "",
-            "image": "refik-anadol-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/refik-anadol-interview",
-            "published_date": "2024-06-16",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 117,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "5 pioneering Asian queer artists who defied societal norms by depicting LGBTQ+ themes in their art",
-            "keywords": "Gender | Sexuality | Mythology ",
-            "image_url": "",
-            "image": "patrick-ng-kah-onn-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/asian-queer-artists-pioneers",
-            "published_date": "2024-06-17",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 118,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Hong Kong gets two new art fairs, Art021 and Photofairs, adding to the city’s packed arts calendar",
-            "keywords": "Exhibitions | Photography | Events ",
-            "image_url": "",
-            "image": "art021-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/hong-kong-art-fairs-art-021-photofairs",
-            "published_date": "2024-06-26",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 119,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Karpe and Quick Style bring their distinct hybrid Norwegian flair to Coke Studio",
-            "keywords": "Music | Dance | Languages ",
-            "image_url": "",
-            "image": "karpe-finals-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/karpe-and-quick-style-coke-studio-season-15",
-            "published_date": "2024-06-29",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 119,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Top creative leaders in the design industry come together in Hong Kong for Knowledge of Design Week",
-            "keywords": "Communication | Technology | Luxury ",
-            "image_url": "",
-            "image": "kodw-24-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/kodw-hong-kong-2024",
-            "published_date": "2024-07-04",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 120,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "What to do, see and eat in Tokyo according to Kyoko Hattori, vice president of Pace Gallery",
-            "keywords": "Travel | Tourism | Exhibitions ",
-            "image_url": "",
-            "image": "pace-tokyo-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/pace-gallery-guide-to-tokyo",
-            "published_date": "2024-07-04",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 121,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Piece of Work: How is Nam June Paik's “TV Garden” Art?",
-            "keywords": "Nature | Video | Television ",
-            "image_url": "",
-            "image": "nam-june-paik-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/piece-of-work-how-is-nam-june-paiks-tv-garden-art",
-            "published_date": "2024-07-05",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 122,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Meet the British Indian actor reframing the mixed-heritage perspective as ‘both, not half",
-            "keywords": "Ethnicity | Identity | Languages ",
-            "image_url": "",
-            "image": "jassa-ahluwalia-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/jassa-ahluwalia-both-not-half",
-            "published_date": "2024-07-08",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 123,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "3 lesser-known buildings designed by star architect IM Pei",
-            "keywords": "Architecture | Exhibitions | Museums ",
-            "image_url": "",
-            "image": "im-pei-staircase-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/im-pei-buildings-fragrant-hill-ocbc-everson-museum",
-            "published_date": "2024-07-10",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 124,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "Turner Prize nominee Pio Abad on forging historical connections, carrying on family legacy and why jewellery is powerful",
-            "keywords": "History | Perception | Auctions ",
-            "image_url": "",
-            "image": "pio-abad-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/turner-prize-pio-abad-interview",
-            "published_date": "2024-07-13",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 125,
-        "model": "articles.article",
-        "fields": {
-            "category": 2,
-            "name": "7 exhibitions and art spaces to see in Paris during the Olympics",
-            "keywords": "Sport | Travel | Tourism ",
-            "image_url": "",
-            "image": "montmarte-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/art-exhibitions-paris-happening-now",
-            "published_date": "2024-08-02",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 126,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Piece of Work: How is Cai Guo-Qiang’s ‘Sky Ladder’ art?",
-            "keywords": "Science | Family | History ",
-            "image_url": "",
-            "image": "sky-ladder-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/cai-guo-qiang-sky-ladder-explosion-gunpowder-art",
-            "published_date": "2024-07-23",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 127,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Cai Guo-Qiang on his ‘explosion event’ with PST Art at LA Coliseum and using AI to explore human fate",
-            "keywords": "Exhibitions | Technology | Mythology ",
-            "image_url": "",
-            "image": "footprints-of-history-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/cai-guo-qiang-pst-art-collaboration",
-            "published_date": "2024-07-30",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 128,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "5 exhibitions featuring Hong Kong artists to check out in August 2024",
-            "keywords": "Exhibitions | Museums | Galleries ",
-            "image_url": "",
-            "image": "chan-ting-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/hong-kong-exhibitions-happening-now",
-            "published_date": "2024-07-31",
-            "publication": 1
-        }
-    },
-    {
-        "pk": 129,
-        "model": "articles.article",
-        "fields": {
-            "category": 1,
-            "name": "Artist Shuang Li on being My Chemical Romance’s biggest fan and creating art out of fandom",
-            "keywords": "Music | Language | Fandom ",
-            "image_url": "",
-            "image": "shuang-li-cover.png",
-            "url": "https://www.tatlerasia.com/lifestyle/arts/artist-shuang-li-interview",
-            "published_date": "2024-08-02",
-            "publication": 1
-        }
+      "pk": 1,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "For their Venice Biennale exhibition, Indian artists Madhvi and Manu Parekh are transforming paintings and sculptures into textile tapestries",
+        "keywords": "Sculpture | Painting | Fashion",
+        "image_url": "",
+        "image": "parekh-cover-image.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/venice-biennale-indian-art-chanakya",
+        "published_date": "2024-05-25",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 2,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Father of Hong Kong design Henry Steiner on how his legacy and that of the city are inextricably linked",
+        "keywords": "Design | Exhibitions | Museums",
+        "image_url": "",
+        "image": "henry-steiner-profile.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/henry-steiner-may-cover",
+        "published_date": "2024-05-02",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 3,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Meet these Mongolian artists keeping folklore alive and redefining their country’s cultural identity through art",
+        "keywords": "Sculpture | Mythology | History",
+        "image_url": "",
+        "image": "jantsankhorol-erdenebayar-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/mongolian-artist-art-basel",
+        "published_date": "2024-03-23",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 4,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Artist Marilyn Minter on why the art world loves old ladies, dead ladies and young bad boys",
+        "keywords": "Beauty | Gender | Sexuality",
+        "image_url": "",
+        "image": "marilyn-minter-portrait.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/marilyn-minter-artist-interview",
+        "published_date": "2024-03-05",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 5,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Wolfgang Tillmans on his upcoming Hong Kong exhibition, and creating a timeless body of work that captures the cultural pulse",
+        "keywords": "Photography | Politics | Music",
+        "image_url": "",
+        "image": "wolfgang-tillmans-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/wolfgang-tillmans-artist-interview",
+        "published_date": "2024-03-17",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 6,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Takashi Murakami on what might be his ‘final exhibition in Japan’, not playing it safe and why Japanese people don’t really get his work",
+        "keywords": "History | Folklore | Luxury",
+        "image_url": "",
+        "image": "murakami-profile.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/takashi-murakami-march-cover",
+        "published_date": "2024-03-01",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 7,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Vietnamese artist Thao Nguyen Phan is reviving the legacies of forgotten female artists and exploring her homeland’s heritage",
+        "keywords": "History | Colonialism | Film",
+        "image_url": "",
+        "image": "thao-nguyen-phan-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/thao-nguyen-phan-interview",
+        "published_date": "2024-01-01",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 8,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Emma Raducanu, former US Open Champion, on connecting with her Chinese heritage, being kind to herself, and why constantly pushing doesn’t work",
+        "keywords": "Sport | Fashion | Identity",
+        "image_url": "",
+        "image": "emma-raducanu-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/sports/emma-raducanu-january-cover",
+        "published_date": "2023-12-29",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 9,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Neo Rauch on being a ‘painter’s painter’, his wife’s influence on his work—and his upcoming exhibition at David Zwirner Hong Kong",
+        "keywords": "Painting | Cooking | Comics",
+        "image_url": "",
+        "image": "neo-rauch-profile.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/neo-rauch-david-zwirner-hong-kong-exhibition",
+        "published_date": "2023-11-29",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 10,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Inside Manchester’s Aviva Studios, which pays homage to the city’s industrial history and ’80s music scene",
+        "keywords": "Architecture | Industry | Theatre",
+        "image_url": "",
+        "image": "aviva-studios-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/aviva-studios-factory-international-manchester",
+        "published_date": "2023-12-15",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 11,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "What’s the link between art and video games? Breaking down the unexpected connection you can’t unsee once you know about it",
+        "keywords": "Technology | Gaming | Digital",
+        "image_url": "",
+        "image": "build-mode-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/video-games-and-art",
+        "published_date": "2023-10-21",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 12,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Meet the social media influencers who are preserving India’s history and culture by evoking nostalgia",
+        "keywords": "Tourism | History | Architecture",
+        "image_url": "",
+        "image": "monumental-nostalgia-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/india-cultural-heritage-documenting-preserving",
+        "published_date": "2023-10-10",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 13,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Swedish Chinese artist Lap-see Lam, whose work will be displayed at Venice Biennale 2024, on drawing from Cantonese mythology, personal loss and more",
+        "keywords": "Film | Animation | Loss",
+        "image_url": "",
+        "image": "lap-see-lam-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/venice-biennale-2024-lap-see-lam-international-chinese-artist",
+        "published_date": "2023-10-07",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 14,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Beyond Frieze Seoul, here are the exhibitions you don’t want to miss while in the capital of South Korea",
+        "keywords": "Museums | Exhibitions | Parties",
+        "image_url": "",
+        "image": "frieze-seoul-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/frieze-seoul-art-exhibitions",
+        "published_date": "2023-09-03",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 15,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Meet Karpe, the Norwegian duo who cracked the code on fusion music, sing about being immigrant kids and inspired viral dance crew Quick Style",
+        "keywords": "Music | Dance | Ethnicity",
+        "image_url": "",
+        "image": "karpe-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/karpe-norwegian-rap-for-tatler",
+        "published_date": "2023-08-01",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 16,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Puerto Rican artist Angel Otero on fusing abstraction and surrealism, his upcoming Hong Kong exhibition",
+        "keywords": "Memory | Abstraction | Fantasy",
+        "image_url": "",
+        "image": "angel-otero-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/angel-otero-brings-abstract-paintings-to-asia",
+        "published_date": "2023-05-31",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 17,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Rahul Mishra on his duty to create employment and ‘worshipping at the temple of couture’",
+        "keywords": "Beauty | Fashion | Celebrities",
+        "image_url": "",
+        "image": "rahul-mishra-cover.png",
+        "url": "https://www.tatlerasia.com/style/fashion/rahul-mishra-designer-responsibility",
+        "published_date": "2023-07-02",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 18,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Meet Sin Wai Kin: the first individual non-binary artist nominated for the prestigious Turner Prize",
+        "keywords": "Gender | Performance | Music",
+        "image_url": "",
+        "image": "sin-wai-kin-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/turner-prize-nominee-sin-wai-kin",
+        "published_date": "2023-06-09",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 19,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "The first Central Asian textile art exhibition in the Greater China region wows Hong Kong",
+        "keywords": "Religion | Crafts | History",
+        "image_url": "",
+        "image": "patterns-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/central-asia-art-exhibtion",
+        "published_date": "2023-04-30",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 20,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Meet the Hong Kong artist turned part-time farmer",
+        "keywords": "Nature | Environment | Agriculture",
+        "image_url": "",
+        "image": "slowdown-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/the-slow-down",
+        "published_date": "2023-04-11",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 21,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "From Japanese manga to African mythology, Tunji Adeniyi-Jones shares his inspirations ahead of his first solo exhibition in Asia",
+        "keywords": "Race | Mythology | Comics",
+        "image_url": "",
+        "image": "adeniyi-jones-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/tunji-adeniyi-jones-first-exhibition-hong-kong",
+        "published_date": "2023-03-17",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 22,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Beyond Art Basel: 5 local artists representing Hong Kong in exhibitions around the world in 2023",
+        "keywords": "Emigration | Pandemic | Protests",
+        "image_url": "",
+        "image": "going-global-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/hong-kong-artists-international-solo-exhibitions",
+        "published_date": "2023-02-23",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 23,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "From Kimsooja to Shubigi Rao: Here are 7 female artists in Hong Kong to look out for this art month",
+        "keywords": "Education | Literature | Perception",
+        "image_url": "",
+        "image": "female-gaze-cover.png",
+        "url": "https://www.tatlerasia.com/power-purpose/front-female/female-artists-art-month-2023",
+        "published_date": "2023-03-03",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 24,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Hong Kong’s first major LGBTQ+ art exhibition opens at Tai Kwun",
+        "keywords": "Sexuality | Gender | Mythology",
+        "image_url": "",
+        "image": "queer-world-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/myth-makers-at-sunpride-taikwun",
+        "published_date": "2023-02-16",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 25,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Rashid Johnson’s first solo exhibition in Asia is a must-see for Hong Kong art lovers",
+        "keywords": "Anxiety | Communication | Race",
+        "image_url": "",
+        "image": "rashid-johnson-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/art-basel-rashid-johnson",
+        "published_date": "2023-03-03",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 26,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Artist Korakrit Arunanondchai on community, duality in his art, and why he sets his work on fire—literally",
+        "keywords": "Society | Mythology | Politics",
+        "image_url": "",
+        "image": "korakrit-arunanondchai-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/thai-artist-korakrit-arunanondchai",
+        "published_date": "2023-01-16",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 27,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Feminism, diaspora and the afterlife: Artist Zadie Xa explores identity in her Korean folklore-inspired installations",
+        "keywords": "Death | Ritual | Identity",
+        "image_url": "",
+        "image": "zadie-xa-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/korean-canadian-artist-zadie-xa",
+        "published_date": "2023-01-29",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 28,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Meet Quick Style, the dance crew that choreographed for BTS and inspired a viral TikTok challenge",
+        "keywords": "Music | Social Media | Creativity",
+        "image_url": "",
+        "image": "quick-style-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/quick-style-dance-crew",
+        "published_date": "2023-01-02",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 29,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Edouard Malingue and Lorraine Kiang open much awaited new gallery space that reflects their Hong Kong roots",
+        "keywords": "Exhibitions | Architecture | Business",
+        "image_url": "",
+        "image": "edouard-malingue-lorraine-kiang-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/edouard-malingue-and-lorraine-kiang-open-their-much-awaited-new-gallery-space",
+        "published_date": "2023-01-09",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 30,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "You’ve Heard of Yayoi Kusama—Here’s Why You Should Care",
+        "keywords": "Exhibitions | Curation | Self",
+        "image_url": "",
+        "image": "kusama-viewing-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/yayoi-kusama-at-m-plus-2022",
+        "published_date": "2022-11-04",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 31,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Witches, Magic, and Tarot Make a Cultural Comeback",
+        "keywords": "Fantasy | Mysticism | Astrology",
+        "image_url": "",
+        "image": "spellbound-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/witches-magic-and-mysticism-are-making-a-comeback",
+        "published_date": "2022-10-31",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 32,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "How Seoul Is Becoming a Top Art Destination",
+        "keywords": "Exhibitions | Travel | Digital",
+        "image_url": "",
+        "image": "frieze-seoul-22-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/frieze-art-fair-opens-its-inaugural-edition-in-seoul-opens-this-week",
+        "published_date": "2022-08-29",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 33,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Jewellery Designer Wallace Chan Creates a Temple in Venice",
+        "keywords": "Sculpture | Religion | Nature",
+        "image_url": "",
+        "image": "wallace-chan-totem.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/jewellery-designer-wallace-chans-creates-a-temple-in-venice",
+        "published_date": "2022-08-29",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 34,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Who Is Pipilotti Rist, the Artist Who Inspired an Iconic Scene in Beyonce’s ‘Hold Up’?",
+        "keywords": "Illusion | Nudity | Gender",
+        "image_url": "",
+        "image": "pipilotti-rist-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/pipilotti-rist-at-tai-kwun",
+        "published_date": "2022-07-28",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 35,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Meet Zain, the Pakistani-Arab Canto Rapper from Hong Kong",
+        "keywords": "Music | Society | Social Media",
+        "image_url": "",
+        "image": "zain-syed-cover.png",
+        "url": "https://www.tatlerasia.com/power-purpose/ideas-education/meet-zain-canto-rapper-hong-kong",
+        "published_date": "2022-08-19",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 36,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Axel Vervoordt on Art, Spirituality and the Wabi-Sabi Philosophy",
+        "keywords": "Interior Design | Imperfection | Antiquities",
+        "image_url": "",
+        "image": "axel-vervoordt-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/living-wabi-savvy-with-axel-vervoordt",
+        "published_date": "2022-07-21",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 37,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Meet the First Asian Collective to Curate This Major Contemporary Art Show",
+        "keywords": "Friendship| Documenta | Community",
+        "image_url": "",
+        "image": "ruangrupa-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/ruang-rupa-documenta-fifteen",
+        "published_date": "2022-06-22",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 38,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Meet Brendan Dawes, NFT Collector WhaleShark’s Favourite Digital Artist",
+        "keywords": "Digital| NFTs | Community",
+        "image_url": "",
+        "image": "dawes-minutes-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/brendan-dawes-nft-artist",
+        "published_date": "2022-06-16",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 39,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Meet the Artist Turning Old Aeroplanes into Classrooms",
+        "keywords": "Education| History | Community",
+        "image_url": "",
+        "image": "ibrahim-mahama-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/ibrahim-mahama-half-a-yellow-sun",
+        "published_date": "2022-04-22",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 40,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Levitating at Venice Biennale? How Hong Kong Artist Angela Su Plans to Rise Above the Rest",
+        "keywords": "Anime| Film | Society",
+        "image_url": "",
+        "image": "angela-su-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/angela-su-vennice-biennale",
+        "published_date": "2022-04-22",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 41,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Who Is Pak? We Interview the Mysterious NFT Creator",
+        "keywords": "NFTs| Blockchain | Technology",
+        "image_url": "",
+        "image": "pak-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/who-is-pak",
+        "published_date": "2022-03-10",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 42,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Ami Lien & Enzo Camacho’s Monument to Escalante",
+        "keywords": "Film| History | Exhibitions",
+        "image_url": "",
+        "image": "ami-lien-cover.png",
+        "url": "https://artreview.com/amy-lien-enzo-camacho-offerings-for-escalante-para-site-hong-kong-review/",
+        "published_date": "2022-03-26",
+        "publication": 2
+      }
+    },
+    {
+      "pk": 43,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Can Hong Kong’s Newest Museum Live Up To The Hype?",
+        "keywords": "Museums| Exhibitions | Architecture",
+        "image_url": "",
+        "image": "m-plus-cover.png",
+        "url": "https://artreview.com/can-hong-kong-newest-museum-live-up-to-the-hype-m-plus/",
+        "published_date": "2021-12-10",
+        "publication": 2
+      }
+    },
+    {
+      "pk": 44,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Staying Afloat When Hong Kong Is Sinking",
+        "keywords": "Environment| Exhibitions | Politics",
+        "image_url": "",
+        "image": "liquid-ground-cover.png",
+        "url": "https://artreview.com/staying-afloat-when-hong-kong-is-sinking/",
+        "published_date": "2021-11-12",
+        "publication": 2
+      }
+    },
+    {
+      "pk": 45,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Need For Speed: Drone Races and Humans’ Obsession with Acceleration",
+        "keywords": "Technology| Architecture | Digital",
+        "image_url": "",
+        "image": "need-for-speed-cover.png",
+        "url": "https://artreview.com/need-for-speed-drone-races-and-humans-obsession-with-acceleration/",
+        "published_date": "2021-05-06",
+        "publication": 2
+      }
+    },
+    {
+      "pk": 46,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Lee Kit and Kingsley Ng Warp Time and Space in Hong Kong",
+        "keywords": "Time| Modernity | Literature",
+        "image_url": "",
+        "image": "oi-art-space.png",
+        "url": "https://artreview.com/lee-kit-and-kingsley-ng-warp-time-and-space-in-hong-kong-oi-art-space/",
+        "published_date": "2021-03-02",
+        "publication": 2
+      }
+    },
+    {
+      "pk": 47,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Portals, Stories, and Other Journeys",
+        "keywords": "Exhibitions| Archives | Photography",
+        "image_url": "",
+        "image": "portals-journeys-cover.png",
+        "url": "https://www.e-flux.com/criticism/407148/portals-stories-and-other-journeys",
+        "published_date": "2021-07-06",
+        "publication": 3
+      }
+    },
+    {
+      "pk": 48,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "How galleries overcame the challenges of the pandemic era",
+        "keywords": "Exhibitions| Archives | Photography",
+        "image_url": "",
+        "image": "pandemic-challenges-cover.png",
+        "url": "https://www.artbasel.com/stories/galleries-navigating-the-pandemic-hong-kong-2022",
+        "published_date": "2021-05-03",
+        "publication": 4
+      }
+    },
+    {
+      "pk": 49,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Tarot, astrology, feng shui – why is Hong Kong’s art world going dotty over divination?",
+        "keywords": "Self | Home | Videogames",
+        "image_url": "",
+        "image": "feng-shui-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3157982/tarot-astrology-feng-shui-why-hong-kongs-art-world-going",
+        "published_date": "2021-12-01",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 50,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Recent Hong Kong history, from Sars epidemic to ‘umbrella movement’ to ‘fear of now’, inspires city artists’ work, on show in two exhibitions",
+        "keywords": "Politics| Exhibitions | Society",
+        "image_url": "",
+        "image": "jaffa-lam-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3142548/recent-hong-kong-history-sars-epidemic-umbrella-movement",
+        "published_date": "2021-07-27",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 51,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Architect David Adjaye’s marble sculptures paired with Adam Pendleton’s text-based paintings for Hong Kong show",
+        "keywords": "Architecture| History | Identity",
+        "image_url": "",
+        "image": "david-adjaye-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3133361/architect-david-adjayes-marble-sculptures-paired-adam",
+        "published_date": "2021-05-14",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 52,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "The promise of a new life in America for Chinese children explored in short film Magic Kingdom",
+        "keywords": "Immigration| History | Identity",
+        "image_url": "",
+        "image": "magic-kingdom-cover.png",
+        "url": "https://www.scmp.com/lifestyle/entertainment/article/3129307/promise-new-life-america-chinese-children-explored-short",
+        "published_date": "2021-04-13",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 53,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Candice Lin, Chinese-American artist, on her first solo show in China and its focus on the migrant experience",
+        "keywords": "Immigration| History | Identity",
+        "image_url": "",
+        "image": "candice-lin-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3128205/candice-lin-chinese-american-artist-her-first-solo-show",
+        "published_date": "2021-04-03",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 54,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Independent art finds room to flourish in Hong Kong as young artists and creatives grab retail spaces left empty by the pandemic",
+        "keywords": "Commercial| Exhibitions | Independent ",
+        "image_url": "",
+        "image": "eunice-tsang-cover.png",
+        "url": "https://www.scmp.com/culture/article/3122236/independent-art-finds-room-flourish-hong-kong-young-artists-and-creatives",
+        "published_date": "2021-02-20",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 55,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "How rich millennials are shaking up China’s art market",
+        "keywords": "Museums| Galleries | Youth ",
+        "image_url": "",
+        "image": "michael-huang-cover.png",
+        "url": "https://www.scmp.com/magazines/post-magazine/long-reads/article/3112430/rich-millennials-shaking-chinas-art-market",
+        "published_date": "2020-12-06",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 56,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "How racism and discrimination affect black people in China and Hong Kong",
+        "keywords": "Race| Immigration | Society ",
+        "image_url": "",
+        "image": "little-africa-cover.png",
+        "url": "https://www.scmp.com/lifestyle/article/3112105/how-racism-and-discrimination-affects-black-people-china-and-hong-kong",
+        "published_date": "2020-12-02",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 57,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Racism, feeling invisible: podcast on the black experience in Hong Kong, HomeGrown, acts as a guide for expats",
+        "keywords": "Race| Immigration | Society ",
+        "image_url": "",
+        "image": "home-grown-cover.png",
+        "url": "https://www.scmp.com/lifestyle/entertainment/article/3110345/racism-feeling-invisible-podcast-black-experience-hong-kong",
+        "published_date": "2020-11-19",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 58,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Belgian artist Luc Tuymans’ Hong Kong exhibition plays on ‘Made in China’, colonialism and global trade",
+        "keywords": "History| Perspective | Commerce ",
+        "image_url": "",
+        "image": "luc-tymans-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3107194/belgian-artist-luc-tuymans-hong-kong-exhibition-plays-made",
+        "published_date": "2020-10-27",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 59,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Why keep Hong Kong’s light show going with no tourists, artist asks as part of show exploring his personal and political fascination with lights",
+        "keywords": "Politics| Tourism | COVID ",
+        "image_url": "",
+        "image": "lights-symphony-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3100047/why-keep-hong-kongs-light-show-going-no-tourists-artist-asks",
+        "published_date": "2020-09-03",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 60,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "From Tesla cars to Brazilian waxes, being smooth is everything in today’s world – but why, artist wonders",
+        "keywords": "Identity| Aesthetics | Consumerism ",
+        "image_url": "",
+        "image": "jess-fan-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3099350/tesla-cars-brazilian-waxes-being-smooth-everything-todays",
+        "published_date": "2020-08-29",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 61,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Artist Christopher K. Ho reflects on identity, the meaning of home and the nature of the nation state",
+        "keywords": "Identity | Nationalism | Emigration ",
+        "image_url": "",
+        "image": "christopher-ho-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3098015/artist-christopher-k-ho-reflects-identity-meaning-home-and",
+        "published_date": "2020-08-20",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 62,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Hong Kong artist Wong Ping’s darkly humorous animated videos ‘talk about things which are kind of taboo but experienced by people in their daily life’",
+        "keywords": "Animation | Society | Exhibitions ",
+        "image_url": "",
+        "image": "wong-pinky-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3097028/hong-kong-artist-wong-pings-darkly-humorous-animated-videos",
+        "published_date": "2020-08-12",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 63,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Artists, celebrities and designers decorate skateboard decks for online exhibition and charity auction in Hong Kong’",
+        "keywords": "Healthcare | Society | Magazines ",
+        "image_url": "",
+        "image": "joseph-wong-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3096453/artists-celebrities-and-designers-decorate-skateboard-decks",
+        "published_date": "2020-08-09",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 64,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "How art sensation Matthew Wong learned his craft in Hong Kong – tutor recalls an eager student, gallerist his eye for detail",
+        "keywords": "Photography | Painting | Galleries ",
+        "image_url": "",
+        "image": "matthew-wong-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3094068/how-art-sensation-matthew-wong-learned-his-craft-hong-kong",
+        "published_date": "2020-07-22",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 65,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Congolese model takes on Hong Kong’s prejudiced fashion industry",
+        "keywords": "Modelling | Society | Beauty ",
+        "image_url": "",
+        "image": "ann-marie-cover.png",
+        "url": "https://www.scmp.com/lifestyle/fashion-beauty/article/3093549/congolese-model-takes-hong-kongs-prejudiced-fashion",
+        "published_date": "2020-07-20",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 66,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Hong Kong history marked absent from city’s international school education",
+        "keywords": "History | Education | Politics ",
+        "image_url": "",
+        "image": "hk-history-cover.png",
+        "url": "https://www.scmp.com/magazines/post-magazine/short-reads/article/3092471/hong-kong-history-marked-absent-citys",
+        "published_date": "2020-07-13",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 67,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Raw power of Basquiat on show in Hong Kong – he’s ‘so of the moment’, Lévy Gorvy gallery co-founder Brett Gorvy says",
+        "keywords": "Galleries | Exhibitions | Painting ",
+        "image_url": "",
+        "image": "jm-basquiat-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3091947/raw-power-basquiat-show-hong-kong-hes-so-moment-levy-gorvy",
+        "published_date": "2020-07-06",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 68,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Contemporary relics from sculptor Leelee Chan showcase her passion for making art from found objects",
+        "keywords": "Sculpture | Antiques | Artefacts ",
+        "image_url": "",
+        "image": "leelee-chan-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3090557/contemporary-relics-sculptor-leelee-chan-showcase-her",
+        "published_date": "2020-06-26",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 69,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Lorna Simpson: ‘Who knew coronavirus would bring about a political change?’ New York artist living in the moment",
+        "keywords": "Politics | Society | Race ",
+        "image_url": "",
+        "image": "lorna-simpson-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3089473/lorna-simpson-who-knew-coronavirus-would-bring-about",
+        "published_date": "2020-06-19",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 70,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Why the biggest barrier to overcoming racism is ‘white fragility’",
+        "keywords": "Politics | Society | Race ",
+        "image_url": "",
+        "image": "white-fragility-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3088443/why-biggest-barrier-overcoming-racism-white-fragility",
+        "published_date": "2020-06-10",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 71,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "An artist’s love of plants helps him cope with anxiety: in his art, butterfly palms and Venus flytraps stand in lieu of people and challenging relationships’",
+        "keywords": "Anxiety | Relationships | Nature ",
+        "image_url": "",
+        "image": "trevor-yeung-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3088033/artists-love-plants-helps-him-cope-anxiety-his-art-butterfly",
+        "published_date": "2020-06-09",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 72,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "What fabric can teach us about a society’s economy, geography, resources and gender roles",
+        "keywords": "Textiles | Industry | Lifestyle ",
+        "image_url": "",
+        "image": "david-medalla-cover.png",
+        "url": "https://www.scmp.com/magazines/post-magazine/arts-music/article/3087512/what-fabric-can-teach-us-about-societys-economy",
+        "published_date": "2020-06-07",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 73,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Film, music, photography, art – summer highlights of Le French May festival in Hong Kong",
+        "keywords": "Film | Festivals | Food ",
+        "image_url": "",
+        "image": "fifth-element-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3087481/film-music-photography-art-summer-highlights-le-french-may",
+        "published_date": "2020-06-04",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 74,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Emerging Chinese contemporary artists the focus of X Museum, new Beijing museum whose millennial founders want to change perceptions",
+        "keywords": "Museums | Exhibitions | Youth ",
+        "image_url": "",
+        "image": "contemporary-chinese-art-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3086680/emerging-chinese-contemporary-artists-focus-x-museum-new",
+        "published_date": "2020-05-30",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 75,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Four More Shots Please! shows modern urban Indian female lives, but is it country’s Sex and the City?",
+        "keywords": "Sex | TV | Gender ",
+        "image_url": "",
+        "image": "four-more-shots.png",
+        "url": "https://www.scmp.com/lifestyle/entertainment/article/3086144/four-more-shots-please-shows-modern-urban-indian-female",
+        "published_date": "2020-05-28",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 76,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Part art fair, part exhibition, new Hong Kong event set to reinvigorate city’s art scene",
+        "keywords": "Exhibitions | Galleries | Auctions ",
+        "image_url": "",
+        "image": "unscheduled-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3085576/part-art-fair-part-exhibition-new-hong-kong-event-set",
+        "published_date": "2020-05-25",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 77,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Feminist YouTuber Mak Ying-tung on challenging Damien Hirst, braving an open mic, and addressing serious issues in her signature ‘fun and crazy’ way",
+        "keywords": "Video | Comedy | Society ",
+        "image_url": "",
+        "image": "mak-ying-tung-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3085096/everything-i-do-fun-youtube-artist-whose-latest-work-film",
+        "published_date": "2020-05-20",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 78,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Contemporary artists reflect on Hong Kong’s recent history in Asia Society show",
+        "keywords": "Exhibitions | Politics | Society ",
+        "image_url": "",
+        "image": "falling-carefully.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3084386/contemporary-artists-reflect-hong-kongs-recent-history-asia",
+        "published_date": "2020-05-14",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 79,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Post-internet art: 5 Chinese artists taking aim at country’s digital world",
+        "keywords": "Data | Censorship | Internet ",
+        "image_url": "",
+        "image": "cyber-altar-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3083449/post-internet-art-5-chinese-artists-taking-aim-countrys",
+        "published_date": "2020-05-08",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 80,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "How online art galleries and viewing rooms are changing the industry",
+        "keywords": "E-commerce | Consumption | Internet ",
+        "image_url": "",
+        "image": "online-galleries-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3081839/how-online-art-galleries-and-viewing-rooms-are-changing",
+        "published_date": "2020-04-28",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 81,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Toys become an auction hit thanks to popularity of artists such as Kaws, Yoshitomo Nara and Takashi Murakami",
+        "keywords": "Sculpture | Figurines | Auctions ",
+        "image_url": "",
+        "image": "eric-so-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3081004/toys-become-auction-hit-thanks-popularity-artists-such-kaws",
+        "published_date": "2020-04-24",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 82,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "When a wall is more than just a wall – artists’ Hong Kong exhibition a study in contrasts and context",
+        "keywords": "History | Identity | Photography ",
+        "image_url": "",
+        "image": "two-artists-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3080335/society-flux-artists-reflect-communitys-sense-bonding",
+        "published_date": "2020-04-17",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 83,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "‘We’re in the post-apocalypse now’: artist creates a deformed world filled with expired Nokia phones and Game Boys",
+        "keywords": "Dystopia | Nature | Technology ",
+        "image_url": "",
+        "image": "creepy-pink-orbs.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3079159/were-post-apocalypse-now-artist-creates-deformed-world",
+        "published_date": "2020-04-10",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 84,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Coronavirus compared to Sars, ‘Yellow Peril’ and death of Leslie Cheung in exhibition on Hong Kong’s past traumas",
+        "keywords": "Pandemics | History | Politics ",
+        "image_url": "",
+        "image": "man-in-cage.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3078597/coronavirus-compared-sars-yellow-peril-and-death-leslie",
+        "published_date": "2020-04-06",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 84,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Architects’ award-winning redesign of University of Hong Kong medical school lobby throws away convention",
+        "keywords": "Design | Academia | Medicine ",
+        "image_url": "",
+        "image": "atelier-nuno-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3075750/architects-award-winning-redesign-university-hong-kong",
+        "published_date": "2020-03-20",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 85,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Can’t visit that art show? There’s an app for that – KAWS brings augmented reality sculptures to your smartphone",
+        "keywords": "Digital | Apps | Technology ",
+        "image_url": "",
+        "image": "kaws-ar.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3075496/cant-visit-art-show-theres-app-kaws-brings-augmented-reality",
+        "published_date": "2020-03-18",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 86,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Hong Kong protest art: ‘dystopia’ of street violence captured in paintings taut with emotion",
+        "keywords": "Politics | Society | Photography ",
+        "image_url": "",
+        "image": "chow-chun-fai.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3075028/hong-kong-protest-art-dystopia-street-violence-captured",
+        "published_date": "2020-03-14",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 87,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Art world fights coronavirus with digital shows in wake of mainland China and Hong Kong event cancellations",
+        "keywords": "Internet | Exhibitions | Pandemic ",
+        "image_url": "",
+        "image": "shanghai-power-station.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3051762/art-world-fights-coronavirus-digital-shows-wake-mainland",
+        "published_date": "2020-02-23",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 88,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Hong Kong artists elected as district councillors on city’s identity issues and boosting the local arts scene",
+        "keywords": "Politics | Identity | Expression ",
+        "image_url": "",
+        "image": "clara-cheung-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3049797/hong-kong-artists-elected-district-councillors-citys",
+        "published_date": "2020-02-14",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 89,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Dealers back Art Basel Hong Kong cancellation over coronavirus; Hong Kong galleries see chance for local art to shine",
+        "keywords": "Exhibitions | Localism | Pandemic ",
+        "image_url": "",
+        "image": "light-matter-collective.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3049566/dealers-back-art-basel-hong-kong-cancellation-over",
+        "published_date": "2020-02-07",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 90,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Art Basel: Hong Kong galleries back organiser amid calls to cancel fair over protests, coronavirus emergency",
+        "keywords": "Exhibitions | Galleries | Zao Wou-Ki ",
+        "image_url": "",
+        "image": "villepin-gallery-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3048393/hong-kong-art-gallery-former-french-prime-minister-dominique",
+        "published_date": "2020-02-01",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 91,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Art Basel: Hong Kong galleries back organiser amid calls to cancel fair over protests, coronavirus emergency",
+        "keywords": "Exhibitions | Galleries | Pandemic ",
+        "image_url": "",
+        "image": "art-basel-2020.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3048469/art-basel-hong-kong-galleries-back-organiser-amid-calls",
+        "published_date": "2020-02-01",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 92,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Failed attempts at creating utopias inspire Hong Kong artist’s exhibition ‘Swampland’ at Hanart TZ Gallery",
+        "keywords": "Horror | Dystopia | Pandemic ",
+        "image_url": "",
+        "image": "swampland-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3047769/failed-attempts-creating-utopias-inspire-hong-kong-artists",
+        "published_date": "2020-01-27",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 93,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "From sitar star to Gandhi’s granddaughter, Indian festival in Hong Kong a showcase of country’s culture",
+        "keywords": "Music | Theatre | Festivals ",
+        "image_url": "",
+        "image": "indian-festival-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3045378/sitar-star-gandhis-granddaughter-indian-festival-hong-kong",
+        "published_date": "2020-01-10",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 94,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Pink diamonds, rare already, about to get more scarce as the biggest mine producing them closes",
+        "keywords": "Jewellery | Luxury | Auctions ",
+        "image_url": "",
+        "image": "argyle-diamond-mine.png",
+        "url": "https://www.scmp.com/lifestyle/fashion-beauty/article/3043401/pink-diamonds-rare-already-about-get-more-scarce-biggest",
+        "published_date": "2019-12-26",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 95,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Exhibition of Banksy street art opens in Hong Kong, and his anti-police message should strike a chord",
+        "keywords": "Exhibitions | Street Art | Politics ",
+        "image_url": "",
+        "image": "banksy-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3043375/exhibition-banksy-street-art-opens-hong-kong-and-his-anti",
+        "published_date": "2019-12-19",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 96,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Through the ‘dragon gate’: artist explores feng shui as an emblem for personal agency",
+        "keywords": "Architecture | Feng Shui | Mythology ",
+        "image_url": "",
+        "image": "dragon-gate.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3043039/through-dragon-gate-artist-explores-feng-shui-emblem",
+        "published_date": "2019-12-21",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 97,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "From blow-up Banksy to that banana, the most memorable and sensational art events of the past 10 years",
+        "keywords": "Events | Commerce | Consumption ",
+        "image_url": "",
+        "image": "floating-piers.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3042814/blow-banksy-banana-most-memorable-and-sensational-art-events",
+        "published_date": "2019-12-19",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 98,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Hong Kong Museum of Art and Italy’s Uffizi Gallery to partner on exhibitions, plus seven works you can’t miss at reopened HKMoA",
+        "keywords": "Museums | Galleries | Architecture ",
+        "image_url": "",
+        "image": "tst-art-museum.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3040584/hong-kong-museum-art-and-italys-uffizi-gallery-partner",
+        "published_date": "2019-12-05",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 99,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "‘If you were a triad … If you were a police officer …’ – Hong Kong protests infuse art at Singapore Biennale",
+        "keywords": "Exhibitions | Politics | Law ",
+        "image_url": "",
+        "image": "am-i-a-ghost.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3040179/if-you-were-triad-if-you-were-police-officer-hong-kong",
+        "published_date": "2019-12-02",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 100,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Bangkok hosts biggest ever show of LGBT art from Southeast Asia",
+        "keywords": "Exhibitions | Sexuality | Music ",
+        "image_url": "",
+        "image": "spectrosynthesis.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3040021/bangkok-hosts-biggest-ever-show-lgbt-art-southeast-asia",
+        "published_date": "2019-12-02",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 101,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Art and culture in Hong Kong: why art galleries such as Axel Vervoordt are moving to Wong Chuk Hang from the usual tourist areas like Central",
+        "keywords": "Property | Transport | Music ",
+        "image_url": "",
+        "image": "wong-chuk-hang.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3038872/art-and-culture-hong-kong-why-art-galleries-such-axel",
+        "published_date": "2019-12-01",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 102,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "No shortage of suitors for Shanghai art museums as Western counterparts seek exposure in China – France’s Pompidou Centre is the latest",
+        "keywords": "Culture | Exchange | Collaboration ",
+        "image_url": "",
+        "image": "kandinsky-pompidou.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3036912/no-shortage-suitors-shanghai-art-museums-western",
+        "published_date": "2019-11-08",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 103,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Banksy exhibition coming to Hong Kong; first Asia showing to feature more than 70 pieces",
+        "keywords": "Exhibitions | Museums | Street Art ",
+        "image_url": "",
+        "image": "banksy-exhibition-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3034588/banksy-exhibition-coming-hong-kong-first-asia-showing",
+        "published_date": "2019-10-25",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 104,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Sculptor Carol Bove, whose ‘Ten Hours’ exhibition is coming to Hong Kong, on steel and ways of seeing",
+        "keywords": "Sculpture | Perception | Architecture ",
+        "image_url": "",
+        "image": "carol-bove-cover.png",
+        "url": "https://www.scmp.com/magazines/post-magazine/long-reads/article/3034332/conceptual-artist-carol-bove-whose-ten-hours",
+        "published_date": "2019-10-25",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 105,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Big Asian presence at London’s Frieze art fairs, where strong sales belied Brexit fears that have led galleries to open spaces in Paris",
+        "keywords": "Exhibitions | Textiles | Dance ",
+        "image_url": "",
+        "image": "london-frieze-2019.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3032866/big-asian-presence-londons-frieze-art-fairs-where-strong",
+        "published_date": "2019-10-14",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 106,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Korean contemporary art show at London’s Saatchi Gallery to give artists rare international exposure",
+        "keywords": "Exhibitions | Galleries | Contemporary ",
+        "image_url": "",
+        "image": "helena-parada-kim.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3032617/korean-contemporary-art-show-londons-saatchi-gallery-give",
+        "published_date": "2019-10-12",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 107,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Major show of Lucio Fontana’s work at Hauser & Wirth Hong Kong announced for 2021",
+        "keywords": "Exhibitions | Galleries | Dimensions ",
+        "image_url": "",
+        "image": "lucio-fontana-cover.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3030499/major-show-lucio-fontanas-work-hauser-wirth-hong-kong",
+        "published_date": "2019-09-26",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 108,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Made for the fake-news era, this photographer’s work was ahead of its time",
+        "keywords": "Photography | Truth | Reportage ",
+        "image_url": "",
+        "image": "philip-lorca-marilyn.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3029619/made-fake-news-era-photographers-work-was-ahead-its-time",
+        "published_date": "2019-09-20",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 109,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Artists’ reflections on destructive power of nature take on new meaning after Hong Kong’s summer of protest",
+        "keywords": "Politics | Society | Weather ",
+        "image_url": "",
+        "image": "weather-report.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3027156/artists-reflections-destructive-power-nature-take-new",
+        "published_date": "2019-09-15",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 110,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Major exhibitor scales back its debut at Hong Kong art fair amid protests, but is positive about city’s future",
+        "keywords": "Exhibitions | Galleries | Society ",
+        "image_url": "",
+        "image": "francois-xavier-lalanne.png",
+        "url": "https://www.scmp.com/lifestyle/arts-culture/article/3027093/major-exhibitor-scales-back-its-debut-hong-kong-art-fair",
+        "published_date": "2019-09-13",
+        "publication": 5
+      }
+    },
+    {
+      "pk": 110,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Once dubbed 'American Louvre' this museum celebrates creativity in politically charged Washington",
+        "keywords": "Politics | Architecture | Technology ",
+        "image_url": "",
+        "image": "no-spectators-renwick.png",
+        "url": "https://www.museeum.com/once-dubbed-american-louvre-this-museum-celebrates-creativity-in-politically-charged-washington/",
+        "published_date": "2019-09-24",
+        "publication": 6
+      }
+    },
+    {
+      "pk": 111,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Tai Kwun: big station, big architecture, big art, big aspirations",
+        "keywords": "Design | Architecture | History ",
+        "image_url": "",
+        "image": "tai-kwun-police-hq.png",
+        "url": "https://www.museeum.com/tai-kwun-big-station-big-architecture-big-art-big-aspirations/",
+        "published_date": "2019-08-23",
+        "publication": 6
+      }
+    },
+    {
+      "pk": 112,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "A Hong Kong oasis for a visual and cultural respite",
+        "keywords": "Nature | Architecture | Design ",
+        "image_url": "",
+        "image": "ask-cover.png",
+        "url": "https://www.museeum.com/a-hong-kong-oasis-for-a-visual-and-cultural-respite/",
+        "published_date": "2019-08-01",
+        "publication": 6
+      }
+    },
+    {
+      "pk": 113,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "A Hong Kong art library documenting a vital phenomenon",
+        "keywords": "Learning | Literature | Archives ",
+        "image_url": "",
+        "image": "hk-art-library.png",
+        "url": "https://www.museeum.com/a-hong-kong-art-library-documenting-a-vital-phenomenon/",
+        "published_date": "2019-08-01",
+        "publication": 6
+      }
+    },
+    {
+      "pk": 114,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "The 10 Best Booths at Art Basel in Hong Kong 2021",
+        "keywords": "Exhibitions | Galleries | Pandemic ",
+        "image_url": "",
+        "image": "pilar-corrias-basel.png",
+        "url": "https://www.artsy.net/article/artsy-editorial-10-best-booths-art-basel-hong-kong-2021",
+        "published_date": "2021-05-20",
+        "publication": 7
+      }
+    },
+    {
+      "pk": 115,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "State of the art",
+        "keywords": "Exhibitions | Galleries | Pandemic ",
+        "image_url": "",
+        "image": "old-ladies-home.png",
+        "url": "https://macaomagazine.net/state-of-the-art/",
+        "published_date": "2021-01-28",
+        "publication": 8
+      }
+    },
+    {
+      "pk": 116,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Refik Anadol on using AI to create a Dior perfume and how digital artists still face bias",
+        "keywords": "AI | Sci-Fi | Film ",
+        "image_url": "",
+        "image": "refik-anadol-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/refik-anadol-interview",
+        "published_date": "2024-06-16",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 117,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "5 pioneering Asian queer artists who defied societal norms by depicting LGBTQ+ themes in their art",
+        "keywords": "Gender | Sexuality | Mythology ",
+        "image_url": "",
+        "image": "patrick-ng-kah-onn-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/asian-queer-artists-pioneers",
+        "published_date": "2024-06-17",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 118,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Hong Kong gets two new art fairs, Art021 and Photofairs, adding to the city’s packed arts calendar",
+        "keywords": "Exhibitions | Photography | Events ",
+        "image_url": "",
+        "image": "art021-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/hong-kong-art-fairs-art-021-photofairs",
+        "published_date": "2024-06-26",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 119,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Karpe and Quick Style bring their distinct hybrid Norwegian flair to Coke Studio",
+        "keywords": "Music | Dance | Languages ",
+        "image_url": "",
+        "image": "karpe-finals-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/karpe-and-quick-style-coke-studio-season-15",
+        "published_date": "2024-06-29",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 119,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Top creative leaders in the design industry come together in Hong Kong for Knowledge of Design Week",
+        "keywords": "Communication | Technology | Luxury ",
+        "image_url": "",
+        "image": "kodw-24-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/kodw-hong-kong-2024",
+        "published_date": "2024-07-04",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 120,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "What to do, see and eat in Tokyo according to Kyoko Hattori, vice president of Pace Gallery",
+        "keywords": "Travel | Tourism | Exhibitions ",
+        "image_url": "",
+        "image": "pace-tokyo-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/pace-gallery-guide-to-tokyo",
+        "published_date": "2024-07-04",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 121,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Piece of Work: How is Nam June Paik's “TV Garden” Art?",
+        "keywords": "Nature | Video | Television ",
+        "image_url": "",
+        "image": "nam-june-paik-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/piece-of-work-how-is-nam-june-paiks-tv-garden-art",
+        "published_date": "2024-07-05",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 122,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Meet the British Indian actor reframing the mixed-heritage perspective as ‘both, not half",
+        "keywords": "Ethnicity | Identity | Languages ",
+        "image_url": "",
+        "image": "jassa-ahluwalia-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/jassa-ahluwalia-both-not-half",
+        "published_date": "2024-07-08",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 123,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "3 lesser-known buildings designed by star architect IM Pei",
+        "keywords": "Architecture | Exhibitions | Museums ",
+        "image_url": "",
+        "image": "im-pei-staircase-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/im-pei-buildings-fragrant-hill-ocbc-everson-museum",
+        "published_date": "2024-07-10",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 124,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Turner Prize nominee Pio Abad on forging historical connections, carrying on family legacy and why jewellery is powerful",
+        "keywords": "History | Perception | Auctions ",
+        "image_url": "",
+        "image": "pio-abad-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/turner-prize-pio-abad-interview",
+        "published_date": "2024-07-13",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 125,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "7 exhibitions and art spaces to see in Paris during the Olympics",
+        "keywords": "Sport | Travel | Tourism ",
+        "image_url": "",
+        "image": "montmarte-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/art-exhibitions-paris-happening-now",
+        "published_date": "2024-08-02",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 126,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Piece of Work: How is Cai Guo-Qiang’s ‘Sky Ladder’ art?",
+        "keywords": "Science | Family | History ",
+        "image_url": "",
+        "image": "sky-ladder-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/cai-guo-qiang-sky-ladder-explosion-gunpowder-art",
+        "published_date": "2024-07-23",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 127,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Cai Guo-Qiang on his ‘explosion event’ with PST Art at LA Coliseum and using AI to explore human fate",
+        "keywords": "Exhibitions | Technology | Mythology ",
+        "image_url": "",
+        "image": "footprints-of-history-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/cai-guo-qiang-pst-art-collaboration",
+        "published_date": "2024-07-30",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 128,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "5 exhibitions featuring Hong Kong artists to check out in August 2024",
+        "keywords": "Exhibitions | Museums | Galleries ",
+        "image_url": "",
+        "image": "chan-ting-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/hong-kong-exhibitions-happening-now",
+        "published_date": "2024-07-31",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 129,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Artist Shuang Li on being My Chemical Romance’s biggest fan and creating art out of fandom",
+        "keywords": "Music | Language | Fandom ",
+        "image_url": "",
+        "image": "shuang-li-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/artist-shuang-li-interview",
+        "published_date": "2024-08-02",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 130,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "August artists: Andy Warhol, Yinka Shonibare and others whose works redefined the world of arts",
+        "keywords": "History | Colonialism| Consumerism",
+        "image_url": "",
+        "image": "august-artists.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/famous-artists-born-in-august",
+        "published_date": "2024-08-08",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 131,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Meet Kunihiko Nohara, the Japanese artist who makes surreal sculptures from just one block of wood",
+        "keywords": "Luxury | Abstraction | Subconscious",
+        "image_url": "",
+        "image": "kunihiko-nohara-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/kunihiko-nohara-hkgta-art-installation",
+        "published_date": "2024-08-14",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 132,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Why Haegue Yang and Apichatpong Weerasethakul’s Naoshima exhibition, based on earthquake data, is the ultimate art collaboration",
+        "keywords": "Film | Nature| Sculpture",
+        "image_url": "",
+        "image": "haegue-yang-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/haegue-yang-apichatpong-weerasethakul-ring-of-fire-earthquake",
+        "published_date": "2024-08-16",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 133,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Ahead of his Seoul exhibition, Nari Ward talks spiritual agency, materiality and how care and surveillance can be two sides of the same coin",
+        "keywords": "Spirituality | Faith | Immigration",
+        "image_url": "",
+        "image": "nari-ward-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/nari-ward-interview",
+        "published_date": "2024-08-21",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 134,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "How Coke Studio broke the mould, took Pakistan’s music to Coachella and collaborated with Quick Style",
+        "keywords": "Festivals | Streaming | Storytelling",
+        "image_url": "",
+        "image": "coke-studio-cover.png",
+        "url": "https://www.tatlerasia.com/power-purpose/diversity/coke-studio-music-zulfikar-khan",
+        "published_date": "2024-08-25",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 135,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "After New York and Hong Kong’s Central, gallery Alisan Fine Arts opens a new venue in Tin Wan highlighting emerging artists",
+        "keywords": "Galleries | Nature | Events",
+        "image_url": "",
+        "image": "alisan-arts-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/hong-kong-gallery-alisan-fine-arts-new-venue-tin-wan",
+        "published_date": "2024-08-27",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 136,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "What not to miss at Art021 Hong Kong",
+        "keywords": "Emigration | Exhibitions | History",
+        "image_url": "",
+        "image": "sun-ray-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/art021-hong-kong-what-to-see",
+        "published_date": "2024-08-29",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 137,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Audemars Piguet Contemporary and Museum Macan to unveil installation featuring Indonesian artist’s work on ‘manufactured fear’",
+        "keywords": "Nature | Exhibitions | Mythology",
+        "image_url": "",
+        "image": "natasha-tontey-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/museum-macan-natasha-tontey-audemars-piguet-indonesia",
+        "published_date": "2024-08-29",
+        "publication": 1
+      }
     }
-    
-    
-
-    
-]
+  ]
