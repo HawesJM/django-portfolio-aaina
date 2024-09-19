@@ -1958,5 +1958,62 @@
         "published_date": "2024-08-29",
         "publication": 1
       }
+    },
+    {
+      "pk": 138,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "Beyond Frieze Seoul: 3 art events to check out in South Korea this autumn",
+        "keywords": "Galleries | Exhibitions | Nature",
+        "image_url": "",
+        "image": "frieze-seoul-23.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/frieze-seoul-art-exhibitions-south-korea",
+        "published_date": "2024-09-01",
+        "publication": 1
+      }
+    },
+    {
+      "pk": 139,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Inside Tatler Asia and Montblanc’s celebratory dinner to honour Chinese artist Xia Yu",
+        "keywords": "Luxury | Exhibitions | Society",
+        "image_url": "",
+        "image": "tatler-montblanc-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/tatler-montblanc-xia-yu-dinner",
+        "published_date": "2024-09-02",
+        "publication": 1
+      }
+    },
+    {
+      "pk":140,
+      "model": "articles.article",
+      "fields": {
+        "category": 2,
+        "name": "Insider’s guide to Seoul: What to eat, see and do in the South Korean capital, according to a local gallerist",
+        "keywords": "Travel | Exhibitions | Food",
+        "image_url": "",
+        "image": "seoul-guide-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/seoul-guide-frieze",
+        "published_date": "2024-09-02",
+        "publication": 1
+      }
+    },
+    {
+      "pk":141,
+      "model": "articles.article",
+      "fields": {
+        "category": 1,
+        "name": "5 exhibitions to see in Seoul during Frieze",
+        "keywords": "Travel | Exhibitions | Art",
+        "image_url": "",
+        "image": "frieze-exhibitions-cover.png",
+        "url": "https://www.tatlerasia.com/lifestyle/arts/frieze-seoul-art-shows",
+        "published_date": "2024-09-04",
+        "publication": 1
+      }
     }
+
   ]
